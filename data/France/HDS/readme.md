@@ -19,7 +19,7 @@ Personal health data is sensitive data. Their access is regulated by law to prot
 
 :gb: According to the <a href="https://aws.amazon.com/fr/compliance/shared-responsibility-model/?nc1=h_ls">shared responsibility model</a> security and compliance of a information system built in the cloud is split between AWS and the customer. Also if <a href="https://esante.gouv.fr/offres-services/hds/liste-des-herbergeurs-certifies">AWS is certified as a health data host</a> the attainment of the security requirements involves the use of services and geographical areas falling within the <a href="https://aws.amazon.com/fr/compliance/hds/?nc1=h_ls">certification scope</a > as well as our customer deploying the security controls (technical, organizational and contractual) required by the framework . When performing an audit, security reports regarding AWS can be downloaded directly from <a href="https://aws.amazon.com/en/artifact/">AWS Artifact</a>.
 
-![Shared responsibility model](../../img/aws-shared-responsibility.png)
+![Shared responsibility model](../../../img/aws-shared-responsibility.png)
 
 ## Travailler avec AWS Audit Manager / Working with AWS Audit Manager
 
@@ -46,10 +46,10 @@ Personal health data is sensitive data. Their access is regulated by law to prot
 
 ## Captures d'écran / Screenshot
 
-![Deployment via the CLI](../../img/hds/hds-cli-deployment.png)
-![Console view 1](../../img/hds/hds-console-view-1.png)
-![Console view 2](../../img/hds/hds-console-view-2.png)
-![Deletion result](../../img/hds/hds-cli-supression.png)
+![Deployment via the CLI](../../../img/hds/hds-cli-deployment.png)
+![Console view 1](../../../img/hds/hds-console-view-1.png)
+![Console view 2](../../../img/hds/hds-console-view-2.png)
+![Deletion result](../../../img/hds/hds-cli-supression.png)
 
 
 

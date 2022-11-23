@@ -12,6 +12,7 @@ Essentiels à l’action publique, les systèmes d’information sont porteurs d
 La PSSIE s’inscrit dans le cadre des mesures annoncées en Conseil des ministres le 25 mai 2011 pour faire face à la montée des cyber-attaques. La première version a été publiée par circulaire le 17 juillet 2014.
 
 Source : <a href=" https://www.ssi.gouv.fr/entreprise/reglementation/protection-des-systemes-dinformations/la-politique-de-securite-des-systemes-dinformation-de-letat-pssie/">ANSSI</a>
+
 Source : <a href=" https://www.ssi.gouv.fr/uploads/IMG/pdf/pssie_anssi.pdf">ANSSI</a>
 
 # A propos de la Politique de Sécurité des Systèmes d'Information de l'Etat et d'AWS
@@ -28,7 +29,7 @@ Pour les organisations qui décident de construire sur AWS, nous recommandons l'
 
 Conformément au <a href="https://aws.amazon.com/fr/compliance/shared-responsibility-model/?nc1=h_ls">modèle de responsabilité partagé</a> la sécurité et la conformité d'un système d'information dans le cloud est répartie entre AWS et le client. Aussi l'atteinte des exigences de sécurité passe par le déploiement par les clients des contrôles (techniques, organisationnelles et contractuelles) de sécurité requit par le référentiel. Lors de la réalisation d'un audit les rapports de sécurité concernant AWS peuvent être téléchargé directement depuis <a href="https://aws.amazon.com/fr/artifact/">AWS Artifact</a>.
 
-![Shared responsibility model](../../img/aws-shared-responsibility.png)
+![Shared responsibility model](../../../img/aws-shared-responsibility.png)
 
 ## Travailler avec AWS Audit Manager
 
@@ -45,10 +46,10 @@ Une fois le cadre d'évaluation personnalisé déployé. La gestion du rapport e
 
 ## Captures d'écran
 
-![Deployment via the CLI](../../img/pssie/pssie-cli-deployment.png)
-![Console view 1](../../img/pssie/pssie-console-view-1.png)
-![Console view 2](../../img/pssie/pssie-console-view-2.png)
-![Deletion result](../../img/pssie/pssie-cli-supression.png)
+![Deployment via the CLI](../../../img/pssie/pssie-cli-deployment.png)
+![Console view 1](../../../img/pssie/pssie-console-view-1.png)
+![Console view 2](../../../img/pssie/pssie-console-view-2.png)
+![Deletion result](../../../img/pssie/pssie-cli-supression.png)
 
 
 
