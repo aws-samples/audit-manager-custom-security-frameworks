@@ -1,0 +1,19 @@
+{
+    "name": "ISO 27001 | [GRC] - Additional requirement (Annex A12.7 of standard NF ISO 27001)",
+    "description": "The provider must allow its customers to perform audits on the applications brought into service.", 
+    "testingInformation": "1. IT managed services provider has defined, documented and implemented a procedure governing the performance of audits by its customers, in particular security audits (penetration tests, etc.).\n2. The items for which the provider is responsible, in particular shared items, may be excluded from the customers’ scope of audit; in such a case, it is necessary to ensure that the provider is able to provide its customers with the results of an independent external audit of such items.",
+
+    "actionPlanInstructions": "The items for which the provider is responsible, in particular shared items, may be excluded from the customers’ scope of audit; in such a case, it is necessary to ensure that the provider is able to provide its customers with the results of an independent external audit of such items.",
+    "actionPlanTitle": "Governing procedure not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceDescription": "The governance risk and compliance team must establish the procedure",
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

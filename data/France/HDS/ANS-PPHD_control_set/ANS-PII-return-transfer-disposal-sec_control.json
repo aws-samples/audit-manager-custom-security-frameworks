@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Return, transfer and disposal of PII (1)",
+    "description": "The provider must have defined and formalized a policy governing the making available and return of personal data to the provider’s customers, as well as the destruction of the data. This policy must be provided to customers upon request.", 
+    "testingInformation": "A procedure framing the availability, the return and the destruction of the PII to customers has been defined, implemented and is available upon request.",
+
+    "actionPlanInstructions": "Define and implement a procedure to clarify the availability, return conditions and destruction of PII.\nMake the procedure available upon request.",
+    "actionPlanTitle": "Requested procedure not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

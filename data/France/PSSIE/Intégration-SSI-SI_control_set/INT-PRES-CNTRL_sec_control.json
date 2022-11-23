@@ -1,0 +1,16 @@
+{
+    "name": "INT-PRES-CNTRL | [GRC] - Suivi et contrôle des prestations fournies",
+    "description": "Le maintien d’un niveau de sécurité au cours du temps nécessite un double contrôle :\n-l'un, effectué périodiquement par l’équipe encadrant la prestation, qui porte sur les actions du sous-traitant et la conformité au cahier des charges ;\n-l'autre, effectué par une équipe externe, qui porte sur la pertinence du cahier des charges en amont des projets, la conformité des réponses apportées par le sous- traitant en phase de recette et le niveau de sécurité global obtenu en production.",
+    "testingInformation": "Les prestation font l'objet d'un double contrôle conforme à l'exigence de sécurité.",
+    "actionPlanInstructions": "Formalisation et application d'une procédure de contrôle des prestations fournit par une équipe de proximité et par un auditeur externe.",
+    "actionPlanTitle": "Absence de formalisation et d'application d'une procédure de contrôle des prestations fournies.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

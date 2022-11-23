@@ -1,0 +1,16 @@
+{
+    "name": "INT-REX-HS| [GRC/LEGAL] - Hébergement et clauses de sécurité",
+    "description": "Tout contrat d’hébergement détaille les dispositions mises en œuvre pour prendre en compte la SSI. Ce sont notamment les mesures prises pour assurer le maintien en condition de sécurité des systèmes et permettre une gestion de crise efficace (conditions d’accès aux journaux, mise en place d’astreintes, etc.).",
+    "testingInformation": "Formalisation de l'acceptation des clauses et conditions associées à l'utilisation d'AWS.",
+    "actionPlanInstructions": "L'ensemble des clients d'AWS bénéficient des mêmes mesures de protection, validées par des audits et évaluations externes. Ces mesures sont détaillées dans les différents rapports de sécurité directement disponible depuis AWS Artifact.",
+    "actionPlanTitle": "Absence de dispositions de sécurité dans les contrats d'hébergement.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

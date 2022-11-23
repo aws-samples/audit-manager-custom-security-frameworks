@@ -1,0 +1,17 @@
+{
+    "name": "ANS | MSP | [GRC/TECH] - Communication of administration activities",
+    "description": "Technical and organizational means must be implemented in order to communicate administrator activity logs to the customer.", 
+    "testingInformation": "Ensure that the provider has formalized and implemented organizational and technical means in order to process its customers’ requests concerning logs of access by the provider’s administrators to the hosted health information systems.",
+    "actionPlanInstructions": "Define, implement and make available the requested procedure.",
+    "actionPlanTitle": "Procedure framing the communication of administration activities not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "RES-PROT | [TECH] - Protection des informations",
+    "description": "Les accès à Internet passent obligatoirement à travers les passerelles nationales. Dès lors que des informations sensibles doivent transiter sur des réseaux non maîtrisés, il convient de les protéger spécifiquement par chiffrement adapté.",
+    "testingInformation": "Les accès internet sont dirigés vers les passerelles nationales et utilisation d'une méthode de chiffrement de bout en bout.",
+    "actionPlanInstructions": "1. Les flux sortant sur internet sont routés vers les passerelles nationales.\n2. Utilisation d'AWS KMS et d'AWS encryption SDK afin de sur-chiffrer les informations en transit lorsque nécessaire.",
+    "actionPlanTitle": "Les connexions internet ne sont pas dirigées ver les passerelles nationales. Les informations sensibles ne font pas l'objet de mesures de protection particukières lorsque transitant sur des réseaux non maîtrisés.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

@@ -1,0 +1,16 @@
+{
+    "name": "PCA-SUIVILOCAL | [GRC/TECH] - Suivi de la mise en œuvre du plan de continuité d’activité local des Systèmes d’Information (PCA des SI)",
+    "description": "Le RSSI d’une entité s’assure de la bonne mise en œuvre des dispositions prévues dans le plan de continuité d’activité des systèmes d’information.",
+    "testingInformation": "Des mesures de suivi sont mises en oeuvre afin d'assuer la bonne résilience des systèmes et applications.",
+    "actionPlanInstructions": "1. Utilisation d'AWS Resiliency Hub afin d'attester de la robustesse des déploiements.\n2. Utilisation d'AWS Fault Injector afin de tester la résilience des systèmes et applications.\n3. Utilisation prioritaire des services managés et serverless ainsi que des automatismes de réponses et de re-construction automatiques.\n4. Définition pour chaque sytème des indicateurs de résilience clefs.\n5. Mise en place d'une gouvernance sur le thème de la résilience des applications et systèmes.",
+    "actionPlanTitle": "Absence de mesures de suivi de la résilience des systèmes et applications.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

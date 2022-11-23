@@ -1,0 +1,16 @@
+{
+    "name": "PDT-VEROUIL-PORT | [TECH] - Verrouillage des postes portables",
+    "description": "Un câble physique de sécurité doit être fourni avec chaque poste portable. Les utilisateurs doivent être sensibilisés à son utilisation.",
+    "testingInformation": "Un câble physique de sécurité est fourni avec chaque poste portable et les utilisateurs font l'objet d'une sensibilisation à son utilisation.",
+    "actionPlanInstructions": "1. Délivrance d'un câble de sécurité avec un poste portable.\n2. Sensibilisation des utilisateurs.",
+    "actionPlanTitle": "Absence de délivrance d'un câble physique associée à un poste portable et absence de sensibilisation des utilisateurs.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

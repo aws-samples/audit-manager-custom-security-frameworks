@@ -1,0 +1,16 @@
+{
+    "name": "PHY-SENS | [TECH] - Tout accès réseau installé dans une zone d’accueil du public doit être filtré ou isolé du reste du réseau informatique de l’entité",
+    "description": "Un découpage des sites en zones physiques de sécurité doit être effectué, en liaison avec le RSSI, les correspondants locaux SSI et les services en charge : de l’immobilier, de la sécurité et des moyens généraux. Pour chaque zone de sécurité, des critères précis d’autorisation d’accès sont établis.",
+    "testingInformation": "1. Les parties du réseaux connectées avec des accès public et le réseaux à usage interne sont isolées.\n2. Des mécanismes de segmentation des systèmes d'information sont mis en place. (AWS Organization, Amazon VPC).\n3. AWS Network firewall est déployé.",
+    "actionPlanInstructions": "1. La mise en place des contrôles de sécurité physique ne trouve pas d'application direct dans le cloud. Des suggestions sont proposés dans le cas ou des connectivitées avec AWS sont mises en place dans les zones physiques devant faire l'objet d'une protection particulière.\n2. Provisionnement d'environnements et d'enclaves réseaux dédiées via AWS Organisation et Amazon VPC.\n3. Déploiement d'AWS Network Firewall comme mécanisme de filtrage.",
+    "actionPlanTitle": "Absence d'une isolation stricte entre les parties du réseaux connectés avec des accès public et le réseaux à usage interne.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "GDB-CARTO | [GRC/TECH] - Cartographie",
+    "description": "La cartographie précise les centres informatiques, les architectures des réseaux (sur lesquelles sont identifiés les points névralgiques et la sensibilité des informations manipulées) et qualifie le niveau de sécurité attendu. Cette cartographie est maintenue à jour et tenue à disposition du RSSI, ainsi que du FSSI et de l’ANSSI en cas de besoin de coordination opérationnelle.",
+    "testingInformation": "Une cartographie des réseaux et des systèmes d'information ainsi que de leur niveaux de sensibilité est disponible.",
+    "actionPlanInstructions": "1. L'utilisation d'AWS Network Manager ou d'AWS Cloud WAN permet de disposer d'une cartographie intégré des réseaux.\n2. Déploiement d'une solution tierce permettant la création de la cartographie réseaux.",
+    "actionPlanTitle": "Absence d'une cartographie réseaux précise faisant apparaître les niveaux de sensibilité et de sécurité attendu.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance Risk Compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

@@ -1,0 +1,16 @@
+{
+    "name": "INT-AQ-PSL | [TECH] - Acquisition de produits et services de confiance",
+    "description": "Lorsqu’ils sont disponibles, des produits ou des services de sécurité labellisés (certifiés, qualifiés) par l’ANSSI doivent être utilisés.",
+    "testingInformation": "Lorsque que ces derniers sont disponibles, des produits de sécurité labellisés par l'ANSSI sont utilisés.",
+    "actionPlanInstructions": "1. Utilisation de produits porteurs de certifications, qualifications ou visa de sécurité.\n2. Utilisation de la Marketplace et du réseaux de partenaire AWS.",
+    "actionPlanTitle": "Absence d'utilisation de produits disponibles porteurs de certifications, qualifications ou visa de sécurité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

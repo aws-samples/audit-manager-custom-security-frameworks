@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [TECH] - Re-use of storage area",
+    "description": "The provider must ensure that in the event of the re-use of storage space, the latter has first been purged and that no old data can be accessed.", 
+    "testingInformation": "Storage space are properly sanitized before being re-used",
+
+    "actionPlanInstructions": "1. Use storage space provided by AWS that present the HDS certification.\n2. When working directly with EBS volume, release and re-provision the space will ensure that no data are incorrectly transfered to the new storage space.",
+    "actionPlanTitle": "Storage space not properly sanitized when being re-used",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

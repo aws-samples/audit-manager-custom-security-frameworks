@@ -1,0 +1,17 @@
+{
+    "name": "ORG-APP-INSTR | [GRC] - Application de l’instruction dans l’entité",
+    "description": "Le RSSI planifie les actions de mise en application de la PSSIE. Il rend compte régulièrement de la mise en application des mesures de sécurité auprès de son autorité qualifiée et du FSSI.",
+    "testingInformation": "Stratégie d'application de la PSSIE disponible.",
+    "actionPlanInstructions": "Formalisation, validation et implémentationd d'une stratégie d'application de la PSSIE.",
+    "actionPlanTitle": "Absence d'une stratégie d'application de la PSSIE.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

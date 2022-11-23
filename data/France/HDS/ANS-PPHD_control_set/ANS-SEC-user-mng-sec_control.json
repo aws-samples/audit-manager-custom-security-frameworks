@@ -1,0 +1,19 @@
+{
+    "name": "ANS | [GRC/TECH] - Management of privileged users and service accounts.",
+    "description": "A process to manage user authorizations must be defined and applied. In particular, an up-to-date record should be maintained of the users or profiles of users who have access to personal data or to the information systems used to process personal data.", 
+    "testingInformation": "1. A process to manage authorizations has been defined and implemented.\n2. Up-to-date record precising the list of user and accounts having access to personal data should be available.\n3. Periodic account and privilege review should be scheduled and conducted.",
+
+    "actionPlanInstructions": "Define, implement and automate a procedure framing the governance of users and service accounts processing personal data.",
+    "actionPlanTitle": "Procedure to manage privileged users not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "troubleshootingText": "1. A tagging strategy can be used to quickly identify user profile and credentials that have access to personal data.\n2. AWS Cloudtrail can be used to analyse the actions performed by user.\n",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

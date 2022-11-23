@@ -1,0 +1,16 @@
+{
+    "name": "PDT-NOMAD-FILT | [TECH] - Filtre de confidentialité",
+    "description": "Pour les postes de travail nomades manipulant des données sensibles, un filtre de confidentialité doit être fourni et être positionné sur l’écran dès lors que le poste est utilisé en dehors de l’entité.",
+    "testingInformation": "La délivrance d'un poste de travail nomade est accompagné d'un filtre de confidentialité.",
+    "actionPlanInstructions": "Délivrance d'un filtre de confidentialité avec un poste de travail nomade.",
+    "actionPlanTitle": "Absence de délivrance d'un filtre de confidentialité avec un poste de travail nomade.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "PCA-LOCAL | [GRC] - Définition du plan local de continuité d’activité des systèmes d’information",
+    "description": "Le directeur des systèmes d’information ou le RSSI d’une entité définit la structure et les attendus du plan de continuité d’activité des systèmes d’information permettant d’assurer effectivement, en cas de sinistre, la continuité d’activité.",
+    "testingInformation": "Chaque système d'information de l'entité fais l'objet d'objectifs de résilience provenant d'un plan local en matière de continuité des systèmes d'information.",
+    "actionPlanInstructions": "1. Formalisation d'un plan local en matière de continuité d'activité et application de ce dernier aux systèmes d'information de l'entité.\n2. Creation des 'politiques de resilience' dans AWS Resiliency Hub.",
+    "actionPlanTitle": "Absence d'objectifs en matière de résilience pour les systèmes d'information de l'entité découlant d'un plan local en matière de continuité des systèmes d'information.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "PHY-CTRL | [GRC] - Contrôles anti-piégeages",
+    "description": "Sur les SI particulièrement sensibles, il convient de mener des contrôles anti-piégeages réguliers, effectués par du personnel formé. Il peut être fait appel à des services spécialisés (opérations dites de « dépoussiérage »).",
+    "testingInformation": "Mesures déployées par AWS récupérées et validées.",
+    "actionPlanInstructions": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "actionPlanTitle": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

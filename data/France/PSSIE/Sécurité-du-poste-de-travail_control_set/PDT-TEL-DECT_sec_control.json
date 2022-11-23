@@ -1,0 +1,16 @@
+{
+    "name": "PDT-TEL-DECT | [GRC] - Limiter l’utilisation du DECT",
+    "description": "Les communications réalisées au travers du protocole DECT sont susceptibles d’être interceptées, même si les mécanismes d’authentification et de chiffrement que propose ce protocole sont activés. Il est recommandé d’attribuer des postes téléphoniques filaires aux utilisateurs dont les échanges sont les plus sensibles.",
+    "testingInformation": "Les communications téléphoniques (y compris VOIP) utilisent des protocoles sécurisés.",
+    "actionPlanInstructions": "Utilisation des protocoles sécurisés pour les communications téléphoniques.",
+    "actionPlanTitle": "Absence d'utilisation des protocoles sécurisés pour les communications téléphoniques.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

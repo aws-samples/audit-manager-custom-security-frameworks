@@ -1,0 +1,16 @@
+{
+    "name": "PDT-ADM-LOCAL | [TECH] - Gestion du compte « administrateur local »",
+    "description": "L’accès au compte « administrateur local » sur les postes de travail doit être strictement limité aux équipes en charge de l’exploitation et du support sur ces postes de travail.",
+    "testingInformation": "Les accès au compte 'administrateur local' sont à l'usage exclusif des équipes en charge de l'exploitation.",
+    "actionPlanInstructions": "Réservation des accès au compte 'administrateur local' à l'équipe en charge de l'exploitation.",
+    "actionPlanTitle": "Absence de restriction dans l'utilisation du compte 'administrateur local'.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

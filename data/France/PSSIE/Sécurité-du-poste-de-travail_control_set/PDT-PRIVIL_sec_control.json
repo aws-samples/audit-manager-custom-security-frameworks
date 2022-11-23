@@ -1,0 +1,16 @@
+{
+    "name": "PDT-PRIVIL | [TECH] - Privilèges des utilisateurs sur les postes de travail",
+    "description": "La gestion des privilèges des utilisateurs sur leurs postes de travail doit suivre le principe du « moindre privilège » : chaque utilisateur ne doit disposer que des privilèges nécessaires à la conduite des actions relevant de sa mission.",
+    "testingInformation": "Les profils utilisateurs des postes de travail font l'objet de permissions suivant le principe du 'moindre privilège'.",
+    "actionPlanInstructions": "Application du principe du 'moindre privilège' aux postes de travail.",
+    "actionPlanTitle": "Absence d'application du principe du 'moindre privilège' aux profils utilisateurs des postes de travail.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "DEV-FUITES | [TECH] - Limiter les fuites d’information",
+    "description": "Les fuites d’informations techniques sur les logiciels utilisés permettent aux attaquants de déceler plus facilement d’éventuelles vulnérabilités. Il est impératif de limiter fortement la diffusion d’informations au sujet des produits utilisés, même si cette précaution ne constitue pas une protection en tant que telle.",
+    "testingInformation": "Les configurations des ressources en production limites les informations données dans leurs réponses et possibles messages d'erreur.",
+    "actionPlanInstructions": "Formalisation et application des clauses standards devant être appliquées aux contrat de sous-traitance des développements informatiques.",
+    "actionPlanTitle": "Absence de déploiement de configurations minimisant les informations retournés par les ressources en production.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

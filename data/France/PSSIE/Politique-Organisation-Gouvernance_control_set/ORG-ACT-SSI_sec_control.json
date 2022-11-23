@@ -1,0 +1,16 @@
+{
+    "name": "ORG-ACT-SSI | [GRC] - Identification des acteurs SSI",
+    "description": "L’organisation SSI de l’État s’appuie sur des acteurs SSI clairement identifiés, à tous les niveaux d’organisation de l’État. Les acteurs responsables en matière de SSI pour la protection du secret de la défense désignés dans l’IGI 1300, et les agents chargés de les assister dans cette mission, sont responsables de la mise en application générale de la politique SSI de l’État Ils sont référencés dans un annuaire interministériel. Cette chaîne fonctionnelle s’appuie, pour chaque ministère, sur le le HFDS, assisté par un fonctionnaire de sécurité des systèmes d’information (FSSI).",
+    "testingInformation": "Les personnels responsables des actions de sécurités sont clairement identifiés.",
+    "actionPlanInstructions": "Identification des personnels responsables des actions de sécurités.",
+    "actionPlanTitle": "Absence d'identification des responsables de et des acteurs de la chaîne sécurité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

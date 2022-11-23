@@ -1,0 +1,19 @@
+{
+    "name": "ANS | [GRC/TECH] - Logging and Monitoring.",
+    "description": "The provider must implement the means to ensure the logging and monitoring of user activities, faults and events related to information security. Event logs must be kept and regularly reviewed. The provider must ensure the integrity of the event logs and protect them against unauthorized access.\nIn addition, system administrator and system operator activities must be logged and the logs protected and regularly reviewed.\nIn order to guarantee the reliability of the logs, the provider must synchronize the clocks of all the systems (to a single reference time source).", 
+    "testingInformation": "1. A logging and monitoring strategy must be defined and implemented\n2. End user activities must be properly logged\n3. Both Administrators and operators activities must be logged.\n4. Logs from monitoring are regularly reviewed\n5. Logs entry are using a consistent time server.",
+
+    "actionPlanInstructions": "Define, implement and automate a procedure and the relevant tooling to be able to collect and process logs.",
+    "actionPlanTitle": "Exploitation of logs not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "troubleshootingText": "1. AWS Cloudtrail and Amazon Cloudwatch can be used to collect and process logs.\n2.Enable logging and monitoring on services that provide the functionnalities (S3, VPC, Cloudfront, LoadBalancer...).\n3.Use Amazon Guardduty to process security events and archive findings.\n4. Amazon VPC contains a NTP server that can be used to timestamp logs.",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

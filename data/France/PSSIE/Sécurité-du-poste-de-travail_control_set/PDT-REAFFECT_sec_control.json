@@ -1,0 +1,16 @@
+{
+    "name": "PDT-REAFFECT | [GRC] - Réaffectation du poste de travail",
+    "description": "Une procédure SSI définit les règles concernant le traitement à appliquer aux informations ayant été stockées ou manipulées sur les postes réaffectés.",
+    "testingInformation": "Une procédure précisant les aspects de sécurité concernant le reconditionnement des postes est formalisée et appliquée.",
+    "actionPlanInstructions": "Formalisation et application d'une procédure pour la réaffectation des postes.",
+    "actionPlanTitle": "Absence de procédure précisant les disposisions de sécurité pour la réaffectation des postes.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

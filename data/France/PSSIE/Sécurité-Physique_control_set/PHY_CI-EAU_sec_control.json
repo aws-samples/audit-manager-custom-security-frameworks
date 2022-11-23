@@ -1,0 +1,16 @@
+{
+    "name": "PHY-CI-CLIM | [GRC] - Lutte contre les voies d’eau",
+    "description": "Une étude sur les risques dus aux voies d’eau doit être réalisée. Cette étude doit notamment prendre en compte le risque de fuite sur un collecteur d’eau douce.",
+    "testingInformation": "Mesures déployées par AWS récupérées et validées.",
+    "actionPlanInstructions": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "actionPlanTitle": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

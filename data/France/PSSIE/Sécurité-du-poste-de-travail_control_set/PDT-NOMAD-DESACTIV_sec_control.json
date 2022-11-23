@@ -1,0 +1,16 @@
+{
+    "name": "PDT-NOMAD-DESACTIV | [GRC/TECH] - Désactivation des interfaces de connexion sans fil",
+    "description": "Des règles de configuration des interfaces de connexion sans fil (Wifi, Bluetooth, 3G...), permettant d’interdire les usages non maîtrisés et d’éviter les intrusions via ces interfaces, doivent être définies et appliquées. Les interfaces sans fil ne doivent être activées qu’en cas de besoin.",
+    "testingInformation": "Les règles de configuration des interfaces de connexions sans fil sont formalisées et appliquées.",
+    "actionPlanInstructions": "Formalisation et application des règles de configuration des interfaces de connexion sans fil des postes nomades.",
+    "actionPlanTitle": "Absence de formalisation et d'application des règles de configuration des interfaces de connexion sans fil des postes nomades.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

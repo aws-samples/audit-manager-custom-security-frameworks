@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/LEGAL] - Rights of the data subjects",
+    "description": "The provider must make available the procedures and means to enable its customers to respond to requests from data subjects to exercise their rights. The rights covered are those defined in articles 15 to 22 of Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016.", 
+    "testingInformation": "Procedures for data subjects to exerce their rights has been documented, implememented and made available.",
+
+    "actionPlanInstructions": "Getting expert guidances from a legal expert is advised.",
+    "actionPlanTitle": "Procedures for subjects to exercise their rights not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

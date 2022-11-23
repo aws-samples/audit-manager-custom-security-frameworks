@@ -1,0 +1,16 @@
+{
+    "name": "CONTR-SSI | [GRC/TECH] - Contrôles locaux",
+    "description": "La conformité à la PSSIE et à la PSSI ministérielle est vérifiée par des contrôles réguliers. Les RSSI de chaque entité conduisent des actions locales d’évaluation de la conformité à la PSSIE et contribuent à la consolidation, dans un bilan annuel, de l’état d’avancement de sa mise en œuvre.",
+    "testingInformation": "Evaluation régulière de la conformité des environnements, systèmes et applications.",
+    "actionPlanInstructions": "Utilisation régulière d'AWS Audit Manager, et d'AWS Config afin d'évaluer programmatiquement et régulièrement la conformité des environnements, systèmes et applications déployés.",
+    "actionPlanTitle": "Absence d'évaluation régulière.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

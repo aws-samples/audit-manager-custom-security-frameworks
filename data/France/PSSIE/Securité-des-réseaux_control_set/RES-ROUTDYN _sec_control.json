@@ -1,0 +1,15 @@
+{
+    "name": "RES-ROUTDYN | [TECH] - Surveiller les annonces de routage",
+    "description": "Lorsque l’utilisation de protocoles de routage dynamiques est nécessaire, celle-ci doit s’accompagner de la mise en place d’une surveillance des annonces de routage, et de procédures permettant de réagir rapidement en cas d’incidents.",
+    "testingInformation": "Annonces de routage monitorées.",
+    "actionPlanInstructions": "1. Utilisation d'Amazon Cloudwatch afin de monitorer les annonces de routage.",
+    "actionPlanTitle": "Absence de monitoring des annonces de routage.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

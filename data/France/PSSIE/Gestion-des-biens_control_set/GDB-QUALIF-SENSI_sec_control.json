@@ -1,0 +1,15 @@
+{
+    "name": "GDB-QUALIF-SENSI | [GRC/TECH] - Qualification des informations",
+    "description": "La sensibilité de toute information doit être évaluée. Le marquage systématique des documents, en fonction du niveau de sensibilité, est fortement recommandé.",
+    "testingInformation": "1. L'ensemble des composants du système est associé à un tag permettant de définir sa sensibilité.\n2. Une détection automatique de l'absence de marquage est mise en place (AWS Config).",
+    "actionPlanInstructions": "1. L'utilisation d'une politique de TAG appropriée sur les objets, systèmes de fichiers et base de données permet d'en identifier la sensibilité.\n2. Mise en place d'automatismes de contrôle afin de garantir la bonne identification du niveau de sensibilité des resources.",
+    "actionPlanTitle": "Absence d'une procédure systémique de qualification et de marquage de l'information.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance Risk Compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

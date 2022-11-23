@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/TECH] - Protect data on media leaving the premises",
+    "description": "Prior authorization must be obtained for portable storage media containing personal data to leave the provider’s premises. Such data must be made inaccessible to unauthorized personnel, for example by protecting it using state-of-the-art encryption.", 
+    "testingInformation": "A procedure framing the authorization process and the protection measures has been defined and implemented.",
+
+    "actionPlanInstructions": "Define and implement a procedure formalize the authorization to move data on portable storage and precise applied protection mecanisms.",
+    "actionPlanTitle": "Procedure defining the authorization process to physically move data on portable storage outside of the premises and associated protection measures not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

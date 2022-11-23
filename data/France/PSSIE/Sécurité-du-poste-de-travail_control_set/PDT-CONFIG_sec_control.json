@@ -1,0 +1,16 @@
+{
+    "name": "PDT-CONFIG | [GRC] - Formalisation de la configuration des postes des travail",
+    "description": "Une procédure formalisée de configuration des postes de travail est établie par chaque entité, conformément aux directives nationales existantes.",
+    "testingInformation": "Une procédure visant la configuration des postes de travail de l'entité est formalisée et appliquée.",
+    "actionPlanInstructions": "Formalisation et application d'une procédure de configuration des postes de travail de l'entité.",
+    "actionPlanTitle": "Absence de formalisation et d'application d'une procédure visant la configuration des postes de travail.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

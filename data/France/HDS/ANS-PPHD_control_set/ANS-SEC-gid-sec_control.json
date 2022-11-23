@@ -1,0 +1,19 @@
+{
+    "name": "ANS | [GRC/TECH] - Control the use of functionnal credentials.",
+    "description": "Means of traceability must be implemented in order to control the actions and utilization of generic IDs.", 
+    "testingInformation": "The use of functionnal credentials must be limited, when functionnal credentials are in use, compensating security control must ensure that their use is traced and logged.\n1. Ensure that the generic IDs management policy limits their use to identified specific cases, for example due to constraints inherent to certain hardware or software.\n2. Ensure that nominative, time-stamped logs of the use of generic IDs are included in the logging and monitoring policy.",
+
+    "actionPlanInstructions": "1. Document the policy and the use case for the use of functionnal IDs\n2. Perform a review of the credentials in use\n2. Implement compensating security controls.",
+    "actionPlanTitle": "Functionnal IDs overused or used without compensating security controls.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "troubleshootingText": "AWS Cloudtrail and Amazon Cloudwatch can used to log and store the trace required when implementing compensating security controls.",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

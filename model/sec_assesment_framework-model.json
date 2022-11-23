@@ -1,0 +1,18 @@
+{
+    "controlSets": [
+      {
+        "name": "STRING_VALUE",
+        "controls": [
+          {
+            "id": "STRING_VALUE" 
+          }
+        ]
+      }
+    ],
+    "name": "STRING_VALUE",
+    "complianceType": "STRING_VALUE",
+    "description": "STRING_VALUE",
+    "tags": {
+      "<TagKey>": "STRING_VALUE"
+    }
+}

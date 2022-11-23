@@ -1,0 +1,15 @@
+{
+    "name": "RH-UTIL | [GRC] - Sensibilisation des utilisateurs des systèmes d’information",
+    "description": "Chaque utilisateur doit être régulièrement informé des exigences de sécurité le concernant, et motivé à leur respect. Il doit être formé à l’utilisation des outils de travail conformément aux règles SSI.",
+    "testingInformation": "Règles et procédures de sécurité des systèmes d'information rappelées régulièrement aux personnels de l'entité.",
+    "actionPlanInstructions": "Mise en place d'une notification et d'un rappel récurrent des règles en matière de sécurité des systèmes d'information pour les personnels de l'organisation.",
+    "actionPlanTitle": "Absence d'une procédure récurrente de notification des règles et obligations en matière de sécurité des systèmes d'information.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

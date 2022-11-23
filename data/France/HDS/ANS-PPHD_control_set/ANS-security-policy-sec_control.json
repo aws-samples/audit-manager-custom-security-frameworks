@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Retention period of administrative security policies",
+    "description": "The retention periods for the different versions of the security documents must be defined and formalized.", 
+    "testingInformation": "The retention periods for the different version of the security documents has been documented and implemented.\nSecurity documents are accordingly stored and versionned.",
+
+    "actionPlanInstructions": "Define, document and implement a retention period for administrative security policies.\nAccordingly store and archive decomissioned administrative security policies.",
+    "actionPlanTitle": "Retention period of administrative security policies not definied and implemented.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

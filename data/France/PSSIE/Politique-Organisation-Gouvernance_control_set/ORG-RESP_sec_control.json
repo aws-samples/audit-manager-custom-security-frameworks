@@ -1,0 +1,17 @@
+{
+    "name": "ORG-RESP | [GRC] - Formalisation des responsabilités",
+    "description": "Une note d’organisation fixe la répartition au sein de chaque entité et au niveau local des responsabilités et rôles en matière de SSI. Cette note sera, le plus souvent, proposée par le RSSI et validée par l’autorité qualifiée.",
+    "testingInformation": "Note d'organisation des rôles et responsabilités en matière de SSI rédigée et validée.",
+    "actionPlanInstructions": "1. Rédaction d'une note de cadrage pour la sécurité informatique du système d'information considéré.\n2. Validation de la note de cadrage par l'autorité qualifiée (AQ).",
+    "actionPlanTitle": "Asbence d'une note de cadrage définissant les rôles et responsabilité en matière de sécurité informatique.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

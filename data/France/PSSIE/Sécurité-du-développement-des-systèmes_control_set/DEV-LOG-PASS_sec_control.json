@@ -1,0 +1,16 @@
+{
+    "name": "DEV-LOG-PASS | [TECH] - Calculer les empreintes de mots de passe de manière sécurisée",
+    "description": "Lorsqu’une application doit stocker les mots de passe de ses utilisateurs, il est important de mettre en œuvre des mesures permettant de se prémunir contre les attaques documentées : attaques par dictionnaire, attaques par tables arc-en-ciel, attaques par force brute, etc.",
+    "testingInformation": "Les mots de passe des utilisateurs d'application sont stokés et gérés dans des configurations sécurisées.",
+    "actionPlanInstructions": "Utilisation d'Amazon Cognito comme mécanisme d'authentification.",
+    "actionPlanTitle": "Absence d'utilisation de configurations sécurisées lors de l'enregistrement et de la gestion des mots de passe utilisateur.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

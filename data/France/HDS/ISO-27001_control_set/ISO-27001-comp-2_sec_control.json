@@ -1,0 +1,19 @@
+{
+    "name": "ISO 27001 | [GRC] - Additional requirement (chapter 6.1.3 of standard NF ISO 27001)",
+    "description": "The SoA (Statement of Applicability) of the ISMS must include all the requirements of the HDH certification reference system. Any exclusion of the requirements of the scope of certification must be formally justified and the justification must be approved by the certification body.", 
+    "testingInformation": "The SoA has been written and contains the requested information.",
+
+    "actionPlanInstructions": "For this security control to be valid, all other security requirements must be met.",
+    "actionPlanTitle": "Security requirements not met.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Security engineer.",   
+        "sourceDescription": "You can use the provided framework to ease the creation of the SoA (Statement of Applicability).",
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

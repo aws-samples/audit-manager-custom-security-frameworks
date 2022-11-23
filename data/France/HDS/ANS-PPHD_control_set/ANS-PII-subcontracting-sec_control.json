@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/LEGAL] - Disclosure of subcontracted PII processing",
+    "description": "The provisions of the agreements entered into between the provider and its customer must specify any recourse to the subcontracting of personal data processing. Thus, the provider must not use a subcontractor without having first informed the customer.", 
+    "testingInformation": "Subcontracting the processing of PII must be documented and made available.\nA procedure has been defined and implemented to inform the end customer in the event of a change.",
+
+    "actionPlanInstructions": "Define a list of subcontractors and a procedure to handle changes of subcontractors.",
+    "actionPlanTitle": "Subcontracting entities not properly defined and repertoriated.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

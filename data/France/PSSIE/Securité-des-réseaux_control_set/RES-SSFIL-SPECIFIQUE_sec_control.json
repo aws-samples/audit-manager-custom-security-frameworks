@@ -1,0 +1,15 @@
+{
+    "name": "RES-SSFIL | [TECH] - Mise en place de réseaux sans fil",
+    "description": "Le déploiement de réseaux sans fil doit faire l’objet d’une analyse de risques spécifique. Les protections intrinsèques étant insuffisantes, des mesures complémentaires, validées par le HFDS concerné, doivent être prises dans le cadre de la défense en profondeur. En particulier, une segmentation du réseau doit être mise en place de façon à limiter à un périmètre déterminé les conséquences d’une intrusion depuis la voie radio. À défaut de mise en œuvre de mesures spécifiques, le déploiement de réseaux sans fil sur des SI manipulant des données sensibles est proscrit.",
+    "testingInformation": "Mesures déployées par AWS récupérées et validées.",
+    "actionPlanInstructions": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "actionPlanTitle": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

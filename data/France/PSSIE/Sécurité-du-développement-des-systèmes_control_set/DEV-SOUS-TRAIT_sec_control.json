@@ -1,0 +1,16 @@
+{
+    "name": "DEV-SOUS-TRAIT | [LEGAL] - Intégrer des clauses SSI dans les contrats de sous-traitance de développement informatique",
+    "description": "Lors de l’écriture d’un contrat de sous-traitance de développement, plusieurs clauses relatives à la SSI doivent être intégrées [...] visant la formation des équipes, l'utilisation d'outils et de mécanismes pour minimiser les erreurs, la production de documentation technique, le respeects des normes et des meilleures pratiques, l'obligation de correction.",
+    "testingInformation": "Les contrats de sous-traitance de développement prennent en compte la dimenssion SSI dans sa globalité.",
+    "actionPlanInstructions": "Formalisation et application des clauses standards devant être appliquées aux contrat de sous-traitance des développements informatiques.",
+    "actionPlanTitle": "Absence de clauses contractuelles précisant les dispositions SSI applicables aux développements informatiques.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

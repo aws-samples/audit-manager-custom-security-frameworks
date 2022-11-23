@@ -1,0 +1,19 @@
+{
+    "name": "NF ISO 20000-1 chapter 6.5 | [GRC]",
+    "description": "The provider must provide proof of compliancy against chapter 6.5 of NF ISO 20000-1.", 
+    "testingInformation": "Requirements of chapter 6.5 of NF ISO 20000-1 must be in place.",
+
+    "actionPlanInstructions": "Getting expert guidances from an accredited ISO 20000 professionals will help identify gaps and provide a clear path toward the obtention of the certification.",
+    "actionPlanTitle": "Requirements of chapter 6.5 of NF ISO 20000-1 not attained.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceDescription": "Requirements of chapter 6.5 of NF ISO 20000-1 must be implemented.",
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

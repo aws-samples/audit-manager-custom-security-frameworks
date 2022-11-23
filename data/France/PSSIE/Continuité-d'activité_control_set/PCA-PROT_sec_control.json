@@ -1,0 +1,16 @@
+{
+    "name": "PCA-PROT | [TECH] - Protection de la confidentialité des sauvegardes",
+    "description": "Les sauvegardes doivent être traitées de manière à garantir leur confidentialité et leur intégrité.",
+    "testingInformation": "Les sauvegardes font l'objet de contrôles de sécurité visant à garantir leur confidentialité et leur intégrité.",
+    "actionPlanInstructions": "1. Création d'environnements dédiés au stockage des sauvegardes.\n2. Utilisation des fonctionnalités 'write once read many' et 'vault lock' sur les sauvegardes, a minima activation de la fonctionalité 'MFA delete' et de la mise sous versions.\n3. Révision de la politique de gestion des accès et application d'un modèle 'Pull' sur les environnements stockant les sauvegardes.\n4. Chiffrement des espaces de stockage des sauvegardes.",
+    "actionPlanTitle": "Absence de contrôles de sécurité visant la confidentialité et l'intégrité des sauvegardes.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

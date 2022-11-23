@@ -1,0 +1,16 @@
+{
+    "name": "PDT-PART-FIC | [GRC/TECH] - Suppression des données sur les postes partagés",
+    "description": "Les données présentes sur les postes partagés (portable de prêt, par exemple) doivent être supprimées entre deux utilisations, dès lors que les utilisateurs ne disposent pas du même besoin d’en connaître.",
+    "testingInformation": "Une procédure précisant les actions de reconditionnement des postes partagés est formalisée et appliquée.",
+    "actionPlanInstructions": "Formalisation et application d'une procédure de reconditionnement des postes partagés entre deux utilisations.",
+    "actionPlanTitle": "Absence de procédure précisant les actions de reconditionnement des postes partagés entre deux utilisations.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

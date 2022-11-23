@@ -1,0 +1,16 @@
+{
+    "name": "PHY-CI-CTRLACC | [GRC] - Délivrance des moyens d’accès physique",
+    "description": "La délivrance des moyens d’accès physique doit respecter un processus formel permettant de s’assurer de l’identité de la personne, s’appuyant sur le processus d’arrivée et de départ du personnel. Le personnel autre que celui explicitement autorisé et habilité, mais néanmoins appelé à intervenir dans les zones sensibles (entretien ou réparation des bâtiments, des équipements non informatiques, nettoyage, visiteurs, ...), intervient systématiquement et impérativement sous surveillance permanente.",
+    "testingInformation": "Mesures déployées par AWS récupérées et validées.",
+    "actionPlanInstructions": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "actionPlanTitle": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "TI-QUAL-TRAIT | [GRC/TECH] - Qualification et traitement des incidents",
+    "description": "La chaîne fonctionnelle SSI est informée par la chaîne opérationnelle de tout incident de sécurité, et contribue si nécessaire à la qualification de l’incident et au pilotage de son traitement.",
+    "testingInformation": "Des automatismes sont en place afin de notifier la chaîne de sécurité en cas d'incident de sécurité.",
+    "actionPlanInstructions": "1. Automatisation de la notification de la chaîne fonctionelle SSI en cas d'évènement de sécurité.\n2. Mise en place d'un système de notification avec AWS SNS depuis les entrées provenant d'AWS Security Hub, Amazon GuardDuty, Amazon Macie et AWS Config.",
+    "actionPlanTitle": "Absence d'automatismes visant la notification de la chaîne fonctionelle SSI en cas d'évènement de sécurité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

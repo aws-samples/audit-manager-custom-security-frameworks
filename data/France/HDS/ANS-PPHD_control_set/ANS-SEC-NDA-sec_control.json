@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/LEGAL] - Employment confidentiality clause",
+    "description": "The employment contracts of the provider’s employees must include a confidentiality clause. In the event of recourse to subcontracting, this requirement also applies to the subcontractors.", 
+    "testingInformation": "Employments contract must include a confidentiality clause. In the event of recourse to subcontracting, subcontractors employment contracts must include a confidentiality clause.",
+
+    "actionPlanInstructions": "Review employment contract of employees and subcontractor.",
+    "actionPlanTitle": "Confidentialy clause in employment contracts not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal | Human Resources",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

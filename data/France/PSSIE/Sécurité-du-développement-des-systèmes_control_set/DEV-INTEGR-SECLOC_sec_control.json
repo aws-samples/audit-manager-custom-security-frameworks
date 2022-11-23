@@ -1,0 +1,16 @@
+{
+    "name": "DEV-INTEGR-SECLOC | [GRC/TECH] - Intégrer la sécurité dans les développements locaux",
+    "description": "Toute initiative locale de développement informatique doit respecter les exigences nationales en matière de SSI, concernant la prise en compte de la sécurité dans les projets et les développements informatiques. Le service à l’origine du projet se porte garant de l’application du référentiel général de sécurité, et de l’application d’une démarche d’homologation du système.",
+    "testingInformation": "Les initiatives locales de développement s'inscrivent dans une démarche de gestion des risques adossée à un processus d'homologation et sont encadrées par les équipes SSI de l'entité.",
+    "actionPlanInstructions": "Réalisation d'un inventaire des initiaties locales de développement et inscription dans une démarche d'homologation.",
+    "actionPlanTitle": "Absence d'encadrement des initiatives locales de développement.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

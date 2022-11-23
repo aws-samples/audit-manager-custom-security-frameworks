@@ -1,0 +1,17 @@
+{
+    "name": "ORG-APP-DOCS | [GRC] - Formalisation de documents d’application",
+    "description": "Le RSSI formalise et tient à jour les documents d’application, approuvés par l’autorité qualifiée, permettant la mise en œuvre des mesures de la PSSIE sur son périmètre.",
+    "testingInformation": "Documentations, audits et automatisations des contrôles attestant du respect de la PSSIE disponibles.",
+    "actionPlanInstructions": "Réalisation de la documentations, des audits et automatisations des contrôles attestant du respect de la PSSIE.",
+    "actionPlanTitle": "Absence de documentations, d'audits ou d'automatismes attestant de la mise en application des recommandations de la PSSIE.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

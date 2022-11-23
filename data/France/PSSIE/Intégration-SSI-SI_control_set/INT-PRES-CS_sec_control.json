@@ -1,0 +1,16 @@
+{
+    "name": "INT-PRES-CS | [GRC] - Clauses de sécurité",
+    "description": "Toute prestation dans le domaine des SI est encadrée par des clauses de sécurité. Ces clauses spécifient les mesures SSI que le prestataire doit respecter dans le cadre de ses activités.",
+    "testingInformation": "Clauses de sécurité applicable à l'engagement de prestataire formalisées et appliquées.",
+    "actionPlanInstructions": "Formalisation et application des clauses et procédures de sécurité applicable à l'engagement de prestataires.",
+    "actionPlanTitle": "Absence de formalisation des clauses de sécurité associées à l'engagement de prestataires.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

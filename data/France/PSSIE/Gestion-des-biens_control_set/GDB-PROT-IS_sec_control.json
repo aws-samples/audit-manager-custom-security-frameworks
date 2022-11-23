@@ -1,0 +1,15 @@
+{
+    "name": "GDB-PROT-IS | [GRC/TECH] - Protection des informations",
+    "description": "L’utilisateur doit protéger les informations qu’il est amené à manipuler dans le cadre de ses fonctions, selon leur sensibilité et tout au long de leur cycle de vie, depuis la création du brouillon jusqu’à son éventuelle destruction.",
+    "testingInformation": "1. Politique de protection de la donnée formalisée et validée.\n2. Contrôle de sécurité permettant d'attester du respect des exigences fixées en place (AWS Config).",
+    "actionPlanInstructions": "1. Définition et formalisation d'une politique de protection de la donnée sur AWS.\n2. Déploiement des contrôles et services de sécurité nécessaires aux respects des exigences fixées par la politique de protection de l'information.",
+    "actionPlanTitle": "Absence de formalisation d'une politique de protection de l'information sur AWS.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance Risk Compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

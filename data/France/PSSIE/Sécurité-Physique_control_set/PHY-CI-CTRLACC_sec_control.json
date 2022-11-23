@@ -1,0 +1,16 @@
+{
+    "name": "PHY-CI-CTRLACC | [GRC] - Contrôle d’accès physique",
+    "description": "L’accès aux zones internes (autorisées uniquement au personnel du centre informatique ou aux visiteurs accompagnés) et restreintes (autorisées aux seules personnes habilitées ou aux visiteurs accompagnés) doit reposer sur un dispositif de contrôle d’accès physique. Ce dispositif doit s’appuyer sur des produits qualifiés, lorsqu’ils sont disponibles, et bénéficier d’un maintien en condition de sécurité rigoureux.",
+    "testingInformation": "Mesures déployées par AWS récupérées et validées.",
+    "actionPlanInstructions": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "actionPlanTitle": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

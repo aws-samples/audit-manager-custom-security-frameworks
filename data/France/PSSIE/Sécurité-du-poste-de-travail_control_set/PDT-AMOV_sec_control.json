@@ -1,0 +1,16 @@
+{
+    "name": "PDT-AMOV | [TECH] - Fourniture de supports de stockage amovibles",
+    "description": "Les supports de stockage amovibles (clés USB et disque durs externes, notamment) doivent être fournis aux utilisateurs par l’équipe locale chargée des SI.",
+    "testingInformation": "Les supports de stockage amovibles sont fournis par l'équipe locale de l'entité.",
+    "actionPlanInstructions": "Achat, distribution et contrôle de l'utilisation des supports de stockage amovibles.",
+    "actionPlanTitle": "Absence de supports de stockage amovibles fournis par l'entité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "TI-INC-REM | [GRC] - Remontée des incidents",
+    "description": "Tout incident de sécurité, même apparemment mineur, dont l’impact dépasse ou est susceptible de dépasser le SI d’une entité ou d’un ministère, fait l’objet d’un compte-rendu, via la chaîne SSI, au Centre opérationnel de la sécurité des systèmes d’information (COSSI) de l’ANSSI. [...]",
+    "testingInformation": "Les incidents de sécurité présentant un impact dépassant le SI d'une entité font l'objet d'un rapport et d'une escalade vers la chaîne SSI puis vers le COSSI de l'ANSSI.",
+    "actionPlanInstructions": "Formalisation et application de la remontée des incidents de sécurité vers la chaîne SSI puis vers le COSSI.",
+    "actionPlanTitle": "Absence de remonté des incidents de sécurité à l'impact dépassant le SI de l'entité vers la chaîne SSI puis vers le COSSI.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

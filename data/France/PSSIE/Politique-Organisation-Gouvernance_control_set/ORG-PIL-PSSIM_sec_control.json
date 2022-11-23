@@ -1,0 +1,17 @@
+{
+    "name": "ORG-PIL-PSSIM | [GRC] - Définition et pilotage de la PSSI ministérielle",
+    "description": "Chaque ministère établit une politique SSI ministérielle, sous la responsabilité du HFDS. Cette politique reprend le socle commun établi par la présente PSSIE. Une structure de pilotage de la PSSI ministérielle est définie. Cette structure est chargée de sa mise en place, de son évolution, de son suivi et de son contrôle.\nUne politique de sécurité portant sur les usages et configurations des services AWS est établie.",
+    "testingInformation": "1. Les exigences de la PSSI-Ministèriel sont appliquées.\n2. Une PSSI cloud est définie et appliquée.",
+    "actionPlanInstructions": "1. Suivit des exigences de la PSSI-M.\n2. Formalisation et implémentation d'un PSSI-Cloud.",
+    "actionPlanTitle": "Politique de sécurité ministèriel non appliquée.\nAbsence d'une politique de sécurité lié à l'utilisation d'AWS pour le projet.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/TECH] - Integrity and acknowlegement of exchanges",
+    "description": "Personal data transmitted via a communication network must be subject to controls to ensure that the data has indeed been received by the target system.", 
+    "testingInformation": "Data transmitted over a communication network are subject to controls to ensure that they have been correctly recieved.",
+
+    "actionPlanInstructions": "Define and implement a procedure to control the successful transmission of data.",
+    "actionPlanTitle": "Successful transmission of data not confirmed.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

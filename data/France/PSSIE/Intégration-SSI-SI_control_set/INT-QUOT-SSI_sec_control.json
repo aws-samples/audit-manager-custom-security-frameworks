@@ -1,0 +1,16 @@
+{
+    "name": "INT-QUOT-SSI | [TECH] - Mise en œuvre au quotidien de la SSI",
+    "description": "La sécurité des systèmes d’information se traite au quotidien par des pratiques d’hygiène informatique. Des procédures écrites définissent les actes élémentaires du maintien en condition de sécurité lors des phases de conception, évolution ou retrait d’un système..",
+    "testingInformation": "1. Procédures d'utilisation et de configuration des services AWS établies.\n2. Utilisation prioritaire des services managés dans la conception des systèmes d'information.\n3. Déploiement des automatismes et services de sécurité socle. (AWS Security Hub, Amazon GuardDuty).",
+    "actionPlanInstructions": "1. Formalisation et applications des procédures de sécurité dans l'utilisation des services AWS.\n2. Utilisation prioritaire des services managés afin de disposer de facilités dans le maintient en condition de sécurité.\n3. Utilisation des services et automatismes de sécurité proposés par AWS.",
+    "actionPlanTitle": "Absence de procédure et de recommandations de sécurité dans l'utilisation d'AWS.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

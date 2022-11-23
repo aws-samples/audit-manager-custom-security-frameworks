@@ -1,0 +1,15 @@
+{
+    "name": "RH-CONF | [GRC] - Personnels de confiance",
+    "description": "Toutes les personnes manipulant des informations sensibles doivent le faire avec une attention et une probité particulière, dans le respect des textes en vigueur. Les sanctions éventuelles s’appliquant aux cas de négligence ou de malveillance leur sont rappelées.",
+    "testingInformation": "Les personnels manipulant des informations sensibles font l'objet de procédures de validation et de sensibilisation dédiées.",
+    "actionPlanInstructions": "Formalisation et application d'une procédure de validation et de sensibilisation des personnels manipulant des informations sensibles.",
+    "actionPlanTitle": "Absence d'une procédure de validation et de sensibilisation aux obligations légales des personnels manipulant des informations sensibles.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

@@ -1,0 +1,15 @@
+{
+    "name": "RES-MAITRISE | [TECH] - Systèmes autorisés sur le réseau",
+    "description": "Seuls les équipements gérés et configurés par les équipes informatiques habilitées peuvent être connectés au réseau local d’une entité.",
+    "testingInformation": "Des mécanismes d'authentification sont utilisés afin d'identifier les équipements raccordés aux environnements.",
+    "actionPlanInstructions": "1. Implémentation d'un ou plusieurs mécanismes d'authentification pour les équipements raccordés aux environnements.\n2. L'utilisation d'AWS IoT core, AWS IoT device management, d'IAM role Anywhere permet de faciliter l'atteinte de l'objectif\n3. Utilisation de protocoles et méthodes de communication 'authentifié' (mtls, vpn, signature. . .)",
+    "actionPlanTitle": "Absence d'un mécanisme d'authentification des équipements vis-à-vis du réseaux interne.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

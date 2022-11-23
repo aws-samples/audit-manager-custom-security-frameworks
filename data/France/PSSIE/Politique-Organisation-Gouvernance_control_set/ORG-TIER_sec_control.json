@@ -1,0 +1,17 @@
+{
+    "name": "ORG-TIERS | [GRC/LEGAL] - Gestion contractuelle des tiers",
+    "description": "Le RSSI coordonne les actions permettant l’intégration des clauses liées à la SSI dans tout contrat ou convention impliquant un accès par des tiers à des informations ou à des ressources informatiques.",
+    "testingInformation": "Exigences et clauses de sécurité identifiées, définies et apliquées lors de la contractualisation avec des acteurs tiers.",
+    "actionPlanInstructions": "Définition et application d'exigences et clauses de sécurité applicable lors de la contractualisation avec des acteurs tiers.",
+    "actionPlanTitle": "Absence de formalisation de clauses de sécurité pour la gestion des acteurs externes au service.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

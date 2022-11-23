@@ -1,0 +1,15 @@
+{
+    "name": "RES-INTERCO | [TECH] - Interconnexion avec des réseaux externes",
+    "description": "Toute interconnexion entre les réseaux locaux d’une entité et un réseau externe (réseau d’un tiers, Internet, etc.) doit être réalisée via les infrastructures nationales.",
+    "testingInformation": "Lorsque des interconnexions et hybridations sont faîtes, ces dernières sont effectuées via les infrastructures nationales.",
+    "actionPlanInstructions": "1. Mise en place d'un routage et des interconnexion utilisant les infrastructures nationales.\n2. Mise en place de liens directs avec AWS Direct Connect.\n3. Utilistion d'AWS Gateway Load Balancer\n4. Déploiement d'une architecture de type VPN CloudHub",
+    "actionPlanTitle": "Les interconnexions ne sont pas faîtes via les infrastructures nationales.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

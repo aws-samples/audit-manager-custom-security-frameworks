@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Customers contact list",
+    "description": "The provider must keep a list of points of contact for each customer.\nThese points of contact must be able to provide the provider with the name of a health professional whenever necessary (examples: access to health data, management of relations with the patient, etc.)\nThe provider must be able to provide this list immediately to the competent authority upon request, notably in the event of suspension or withdrawal of certification.", 
+    "testingInformation": "1. A list of customers has been established, is maintained up-to-date, and is ready to be communicated.\n2. The list contains at least the following information :\na. The customer's corporate name\nb. The contact’s first and last names\nc. The contact’s email address\nd. The contact’s telephone number",
+
+    "actionPlanInstructions": "Define and implement a procedure to establish a list of active customers.",
+    "actionPlanTitle": "List of customers not established, and not ready to be communicated.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

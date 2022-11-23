@@ -1,0 +1,16 @@
+{
+    "name": "PDT-CHIFF-SENS | [TECH] - Chiffrement des données sensibles",
+    "description": "Une solution de chiffrement labellisée doit être mise à disposition des utilisateurs et des administrateurs afin de chiffrer les données sensibles stockées sur les postes de travail, les serveurs, les espaces de travail, ou les supports amovibles.",
+    "testingInformation": "Les données identifiées comme sensibles font l'objet d'un chiffrement sur les postes de travail et espaces partagés.",
+    "actionPlanInstructions": "Chiffrement des volumes et espaces avec AWS KMS ou AWS CloudHSM",
+    "actionPlanTitle": "Absence de chiffrement des données sensibles.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

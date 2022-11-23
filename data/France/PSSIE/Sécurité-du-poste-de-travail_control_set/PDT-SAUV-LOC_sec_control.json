@@ -1,0 +1,16 @@
+{
+    "name": "PDT-SAUV-LOC | [TECH] - Sauvegarde / synchronisation des données locales",
+    "description": "Dans le cas où des données doivent être stockées en local sur le poste de travail, des moyens de synchronisation ou de sauvegarde doivent être fournis aux utilisateurs.",
+    "testingInformation": "Outils de sauvegarde et de synchronisation en place.",
+    "actionPlanInstructions": "1. Utilisation d'Amazon Workdocs sur les postes utilisateur.\n2. Utilisation de volumes et espaces via Amazon S3 et Amazon EFS.\n3. Utilisation d'AWS Backup et des mécanismes de récplication afin de créer les sauvegardes.",
+    "actionPlanTitle": "Absence de déploiement d'une solution de stockage cloud.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

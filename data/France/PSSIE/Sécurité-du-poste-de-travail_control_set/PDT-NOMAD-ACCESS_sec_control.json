@@ -1,0 +1,16 @@
+{
+    "name": "PDT-NOMAD-ACCESS | [TECH] - Accès à distance aux Systèmes d’Information de l’entité",
+    "description": "Les accès à distance aux SI de l’entité (accès dits « nomades ») doivent être réalisés via les infrastructures nationales. Lorsque l’accès à distance utilise d’autres infrastructures, l’usage de réseaux privés virtuels (VPN) de confiance est nécessaire.",
+    "testingInformation": "Les accès à distance aux SI de l'entité se font via des canaux sécurisés.",
+    "actionPlanInstructions": "Utilisation d'AWS Client VPN.",
+    "actionPlanTitle": "Absence de canaux sécurisés permettant l'accès à distance aux SI de l'entité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

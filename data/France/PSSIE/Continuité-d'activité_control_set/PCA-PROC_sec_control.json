@@ -1,0 +1,16 @@
+{
+    "name": "PCA-PROC | [TECH] - Mise en œuvre des dispositifs techniques et des procédures opérationnelles.",
+    "description": "Les équipes informatiques mettent en œuvre les dispositifs techniques et les procédures opérationnelles contribuant à la continuité des SI, en assurent la supervision au quotidien et la maintenance dans le temps.",
+    "testingInformation": "Les systèmes et applications implémentent les directives techniques afin d'atteindre les objectifs de résilience établis.",
+    "actionPlanInstructions": "1. Utilisation d'AWS Resiliency Hub afin d'attester de la robustesse des déploiements.\n2. Utilisation d'AWS Fault Injector afin de tester la résilience des systèmes et applications.\n3. Utilisation prioritaire des services managés et serverless ainsi que des automatismes de réponses et de re-construction automatiques.",
+    "actionPlanTitle": "Absence d'implémentation des directives techniques visant l'atteinte des objectifs en matière de résilience.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

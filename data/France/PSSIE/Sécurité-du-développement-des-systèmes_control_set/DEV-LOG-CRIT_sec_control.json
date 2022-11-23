@@ -1,0 +1,16 @@
+{
+    "name": "DEV-LOG-CRIT | [GRC] - Instaurer des critères de développement sécurisé",
+    "description": "Une fois passées les phases de définition des besoins et de conception de l’architecture applicative, le niveau de sécurité d’une application dépend fortement des modalités pratiques suivies lors de sa phase de développement.",
+    "testingInformation": "Formalisation et application des principes et pratiques de sécurité appliqués aux développements.",
+    "actionPlanInstructions": "Formalisation et application des principes et pratiques de sécurité appliqués aux développements.",
+    "actionPlanTitle": "Absence de formalisation et d'application des principes et pratiques de sécurité applicables aux développements.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

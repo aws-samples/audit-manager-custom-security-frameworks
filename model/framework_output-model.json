@@ -1,0 +1,11 @@
+{
+    "security_framework_control_set": [{
+        "name": "string | control-set-name",
+        "controls": [{
+            "id": "string | control-id",
+            "name": "string | control-name | optional"
+        }]
+    }],
+    "framework_id": "string | framework-id",
+    "framework_name": "string | framework-name | optional"
+}

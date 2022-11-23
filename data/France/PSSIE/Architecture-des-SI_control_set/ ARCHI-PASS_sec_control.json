@@ -1,0 +1,16 @@
+{
+    "name": "ARCHI-PASS | [TECH] - Passerelle Internet",
+    "description": "Les interconnexions Internet passent obligatoirement par les passerelles nationales homologuées.",
+    "testingInformation": "Les accès internet passent par les passerelles et infrastructures nationales homologuées.",
+    "actionPlanInstructions": "1. Mise en place d'une architecture réseaux de type 'hub and spoke' en face des passerelles internet.\n2. Redirection du traffic internet vers le VPC (Amazon VPC) dédié aux flux internet pour redirection vers les passerelles adéquates.",
+    "actionPlanTitle": "Interconnexions internet faîtes en dehors des passerelles et infrastructures nationales.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

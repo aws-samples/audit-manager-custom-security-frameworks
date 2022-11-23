@@ -1,0 +1,15 @@
+{
+    "name": "RES-ROUTDYN-IGP | [TECH] - Configurer le protocole IGP de manière sécurisée",
+    "description": "Le protocole de routage dynamique de type IGP doit être activé exclusivement sur les interfaces nécessaires à la construction de la topologie du réseau et désactivé sur le reste des interfaces. La configuration du protocole de routage dynamique doit systématiquement s’accompagner d’un mot de passe de type MESSAGE-DIGEST-KEY.",
+    "testingInformation": "Utilisation de configurations sécurisées lors du déploiement du protocole IGP.",
+    "actionPlanInstructions": "1. Utilisation des mécanismes de routage natifs à Amazon VPC\n2. Déploiement du protocole IGP selon une configuration conforme.",
+    "actionPlanTitle": "Configuration du protocole IGP non-conforme.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

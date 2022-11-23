@@ -1,0 +1,16 @@
+{
+    "name": "ARCHI-HEBERG | [TECH] - Principes d’architecture de la zone d’hébergement",
+    "description": "D’une manière générale, l’architecture des infrastructures des centres informatiques est conçue de façon à satisfaire l’ensemble des besoins en disponibilité, confidentialité, traçabilité et intégrité. Le principe de défense en profondeur doit être respecté, en particulier par la mise en œuvre successive de « zones démilitarisées » (DMZ), d’environnements de sécurité en zone d’hébergement, de machines virtuelles ou physiques dédiées, de réseaux locaux virtuels (VLAN) appropriés, d’un filtrage strict des flux applicatifs et d’administration.",
+    "testingInformation": "Les piliers 'résillience, securité, et excellence opérationnelle' du 'well architected framework' sont implémentés afin de répondre aux différents objectifs.",
+    "actionPlanInstructions": "1. Déroulement d'une 'well architected review'.\n2. Implémentation des principes prévus par le 'well architected framework'.\n3. Utilisation des architectures et déploiement de référence.",
+    "actionPlanTitle": "Absence d'implémentation des principes de résillience, sécurité et d'exellence opérationnelle du 'well architected framework'.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

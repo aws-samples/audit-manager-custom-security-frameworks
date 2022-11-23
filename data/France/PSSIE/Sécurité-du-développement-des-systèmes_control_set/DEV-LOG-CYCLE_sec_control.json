@@ -1,0 +1,16 @@
+{
+    "name": "DEV-LOG-CYCLE | [GRC] - Intégrer la sécurité dans le cycle de vie logiciel",
+    "description": "La sécurité doit être intégrée à toutes les étapes du cycle de vie du projet, depuis l’expression des besoins jusqu’à la maintenance applicative, en passant par la rédaction du cahier des charges et les phases de recette.",
+    "testingInformation": "Formalisation et application d'une démarche de sécurité couvrant le cycle de vie des applications et services.",
+    "actionPlanInstructions": "Formalisation et application d'une démarche couvrant le cycle de vie des applications et services.",
+    "actionPlanTitle": "Absence de formalisation et d'application d'une démarche couvrant le cycle de vie des applications et services.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "DEV-FILT-APPL | [TECH] - Mettre en œuvre des fonctionnalités de filtrage applicatif pour les applications à risque",
+    "description": "Devant les applications à risques, il est recommandé de faire usage d’une solution tierce de filtrage applicatif.",
+    "testingInformation": "Les applications sont protégées par une solution de filtrage applicatif.",
+    "actionPlanInstructions": "Utilisation d'AWS WAF comme solution de filtrage applicatif.",
+    "actionPlanTitle": "Absence de solution de filtrage applicatif protégeant les applications.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

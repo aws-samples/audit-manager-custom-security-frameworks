@@ -1,0 +1,15 @@
+{
+    "name": "RH-NPERM | [GRC] - Gestion du personnel non permanent (stagiaires, intérimaires, prestataires...)",
+    "description": "Les règles de la PSSIE s’appliquent à tout personnel non permanent utilisateur d’un SI d’une administration de l’État. Les dispositions contractuelles préexistantes régissant l’emploi de ce personnel sont amendées si nécessaire. Pour tout personnel non permanent, un tutorat par un agent permanent est mis en place, afin de l’informer de ces règles et d’en contrôler l’application.",
+    "testingInformation": "Les personnels non permanent font l'objet d'une procédure de tutorat.",
+    "actionPlanInstructions": "Formalisation et application d'une procédure de tutorat pour les personnels non permanent.",
+    "actionPlanTitle": "Absence d'une procédure de tutorat ou de rattachement à un membre permanent de l'organisation.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

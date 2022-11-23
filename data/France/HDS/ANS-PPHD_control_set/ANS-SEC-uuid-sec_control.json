@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [TECH] - Nominative accounts must be used when accessing personnal data or system processing personnal data.",
+    "description": "Access to personal data or to systems used to process personal data must be through nominative accounts.", 
+    "testingInformation": "1. Authentification mecanisms must be individualized and nominative across all scoped assets\n2. When using IAM User: engineers must have and use their dedicated IAM profile.\n3. When using IAM Role: Identifying attributes must be passed to sessions in order to identify the engineer that assumed the role.",
+
+    "actionPlanInstructions": "Review access control implementations and user authentication processes and shift to the use of nominative accounts and service-accounts.",
+    "actionPlanTitle": "Nominative credentials and service-accounts not in use.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

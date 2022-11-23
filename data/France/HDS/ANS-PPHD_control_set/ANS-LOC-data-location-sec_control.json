@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Data location",
+    "description": "The provider must list all the countries in which the customer’s data is or might be stored.", 
+    "testingInformation": "The list of locations where data is or might be stored must has been established and made available.",
+
+    "actionPlanInstructions": "Establish the list of locations where data is or might be processed.",
+    "actionPlanTitle": "List of locations of data not available.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

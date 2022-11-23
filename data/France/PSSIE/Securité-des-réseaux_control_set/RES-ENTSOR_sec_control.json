@@ -1,0 +1,15 @@
+{
+    "name": "RES-ENTSOR | [TECH] - Mettre en place un filtrage réseau pour les flux sortants et entrants",
+    "description": "Dans l’optique de réduire les possibilités offertes à un attaquant, les connexions des machines du réseau interne vers l’extérieur doivent être filtrées.",
+    "testingInformation": "Une solution de filtrage est déployée afin de filtrer les connexions des machines du réseau interne vers l'extérieur.",
+    "actionPlanInstructions": "1. Utilisation d'AWS Network Firewall afin de filtrer le traffic sortant.\n2. Utilisation d'AWS Gateway Load Balancer et d'une solution de filtrage.",
+    "actionPlanTitle": "Les connexions sortantes ne sont pas filtrées.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

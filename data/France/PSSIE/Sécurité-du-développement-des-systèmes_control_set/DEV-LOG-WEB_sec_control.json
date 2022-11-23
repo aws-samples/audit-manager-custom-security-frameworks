@@ -1,0 +1,16 @@
+{
+    "name": "DEV-LOG-WEB | [TECH] - Améliorer la prise en compte de la sécurité dans les développements Web",
+    "description": "Les développements Web (et les développements en PHP en particulier) font l’objet de problèmes de sécurité récurrents qui ont conduit à la constitution de référentiels de sécurité. Ces référentiels ont pour objectif de fixer des REGLES DE BONNES PRATIQUES à l’usage des développeurs. Ce sont des règles d’ordre générique ou pouvant être spécifiques à un langage (PHP, ASP, NET, etc.).",
+    "testingInformation": "Les développements Web font l'objet de l'application d'automatismes et de guides de sécurité.",
+    "actionPlanInstructions": "Application d'automatismes et de guides de sécurité pour les développements Web.",
+    "actionPlanTitle": "Absence d'automatismes et d'application de guides de sécurité pour les développements Web.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

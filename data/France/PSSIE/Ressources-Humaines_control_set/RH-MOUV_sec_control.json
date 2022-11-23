@@ -1,0 +1,15 @@
+{
+    "name": "RH-MOUV | [GRC] - Gestion des arrivées, des mutations et des départs",
+    "description": "Une procédure permettant de gérer les arrivées, les mutations et les départs des collaborateurs dans les SI doit être formalisée, et appliquée strictement. Cette procédure doit couvrir au minimum :\n- la gestion/révocation des comptes et des droits d’accès aux SI, y compris pour les partenaires et les prestataires externes.\n- la gestion du contrôle d’accès aux locaux\n- la gestion des équipements mobiles\n- la gestion du contrôle des habilitations.",
+    "testingInformation": "Procédure de gestion des personnels disponible.",
+    "actionPlanInstructions": "Formalisation et application d'un procédure de gestion des mouvements de personnel.",
+    "actionPlanTitle": "Absence d'une procédure de gestion des mouvements de personnel.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

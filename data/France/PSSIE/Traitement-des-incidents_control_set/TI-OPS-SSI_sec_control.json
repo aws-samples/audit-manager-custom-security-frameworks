@@ -1,0 +1,16 @@
+{
+    "name": "TI-OPS-SSI | [GRC/TECH] - Chaînes opérationnelles SSI",
+    "description": "Les chaînes opérationnelles des ministères concourent à l’effort national de cybersécurité. Les alertes et les incidents sont gérés selon des procédures testées lors d’exercices. La coordination des compétences est organisée à l’échelon ministériel. Les situations d’urgences peuvent faire appel à des mesures définies préalablement dans le cadre des plans gouvernementaux.",
+    "testingInformation": "Une procédure précisant les mécanismes, actions et préparations liés à la réponse aux évènements de sécurité est formalisée et appliquée.",
+    "actionPlanInstructions": "1. Formalisation et application des préparations, mécanismes et actions liés à la réponse aux évènements de sécurité.\n2. Utilisation d'AWS Config, Amazon GuardDuty, AWS Security Hub afin d'orchestrer et d'automatiser la réponse à incident.",
+    "actionPlanTitle": "Absence de formalisation des préparations, mécanismes et actions liés à la réponse aux évènements de sécurité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

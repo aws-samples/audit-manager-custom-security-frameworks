@@ -1,0 +1,16 @@
+{
+    "name": "PCA-SAUVE | [TECH] - Protection de la disponibilité des sauvegardes",
+    "description": "Les sauvegardes de données ne doivent pas être soumises aux mêmes risques de sinistres que les données sauvegardées.",
+    "testingInformation": "Les sauvegardes capitalisent sur les différentes zones de disponibilité et régions disponibles afin de disposer de profils de risques distincts.",
+    "actionPlanInstructions": "1. Utilisation d'Amazon S3 (et de ses différentes classes) pour le stockage des sauvegardes.\n2. Lorsque nécessaire, utilisation des fonctionnalités de réplication des sauvegardes vers d'autre région.\n3. Activation des fonctionnalités 'write once read many' sur les sauvegardes.\n4. Utilisation d'AWS Backup afin d'orchestrer la réalisation des sauvegardes.\n5. Création d'environnements dédiés au stockage des sauvegardes.",
+    "actionPlanTitle": "Absence d'utilisation de l'infrastructure globalisée dans le cadre de la protection des sauvegardes.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

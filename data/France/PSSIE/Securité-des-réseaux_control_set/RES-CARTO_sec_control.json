@@ -1,0 +1,15 @@
+{
+    "name": "RES-CARTO | [GRC/TECH] - Elaborer les documents d’architecture technique et fonctionnelle",
+    "description": "L’architecture réseau du système d’information doit être décrite et formalisée à travers des schémas d’architecture, et des configurations, maintenus au fil des évolutions apportées au SI. Les documents d’architecture sont sensibles et font l’objet d’une protection adaptée. La cartographie réseau s’insère dans la cartographie globale des SI.",
+    "testingInformation": "Des cartographies de l'architectures réseaux sont disponibles.",
+    "actionPlanInstructions": "1. L'utilisation d'AWS Network Manager ou d'AWS Cloud WAN permet de disposer d'une cartographie intégré des réseaux.\n2. Déploiement d'une solution tierce permettant la création de la cartographie réseaux.",
+    "actionPlanTitle": "Absence d'une cartographie réseaux précise.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance Risk Compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

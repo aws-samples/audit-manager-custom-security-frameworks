@@ -1,0 +1,16 @@
+{
+    "name": "PDT-PRIV | [GRC] - Utilisation des privilèges d’accès « administrateur »",
+    "description": "Les privilèges d’accès «administrateur» doivent être utilisés uniquement pour les actions d’administration le nécessitant.",
+    "testingInformation": "Les privilèges 'administrateur' ne sont utilisées dans des cadres précis.",
+    "actionPlanInstructions": "Formalisation et application de l'utilisation des privilèges 'administrateur'.",
+    "actionPlanTitle": "Absence d'encadrement de l'utilisation des privilèges et sessions 'administrateur'.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

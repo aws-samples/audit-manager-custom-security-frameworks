@@ -1,0 +1,16 @@
+{
+    "name": "PCA-EXERC | [TECH] - Exercice régulier du plan local de continuité d’activité des systèmes d’information",
+    "description": "Le RSSI d’une entité organise des exercices réguliers, afin de tester le plan local de continuité d’activité des systèmes d’information.",
+    "testingInformation": "Des exercices réguliers sont conduits afin d'attester de la bonne implémentation des mesures techniques visant la résilience des systèmes et des applications.",
+    "actionPlanInstructions": "Utilisation d'AWS Fault Injection Simulator afin de réaliser des exercices.",
+    "actionPlanTitle": "Absence d'exercices réguliers visant l'évaluation de la bonne implémentation des mesures technique en matière de résilience des des systèmes et des applications.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

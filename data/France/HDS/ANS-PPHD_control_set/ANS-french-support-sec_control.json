@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - French support",
+    "description": "localization of customer relations.", 
+    "testingInformation": "1. Ensure that the user interfaces offered to the customers are available at least in French.\n2. The provider must provide first-level support at least in French.\n3. Verify that the SoA is available at least in French.",
+
+    "actionPlanInstructions": "Provide user interface, support and document in French.",
+    "actionPlanTitle": "Requested support and document not available in French.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Product Team",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

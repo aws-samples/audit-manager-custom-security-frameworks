@@ -1,0 +1,15 @@
+{
+    "name": "RH-MOTIV | [GRC] - Choix et sensibilisation des personnes tenant les postes clés de la SSI",
+    "description": "Une attention particulière doit être portée au recrutement des personnes-clés de la SSI : RSSI, correspondants SSI locaux et administrateurs de sécurité. Les RSSI et leurs correspondants SSI locaux doivent être spécifiquement formés à la SSI. Les administrateurs des SI doivent être régulièrement sensibilisés aux devoirs liés à leur fonction, et doivent veiller à respecter ces exigences dans le cadre de leurs activités quotidiennes.",
+    "testingInformation": "Critères de recrutement et de sélection des acteurs de la SSI disponibles.",
+    "actionPlanInstructions": "Formalisation des critères de recrutement et de sélection des acteurs de la SSI établie.",
+    "actionPlanTitle": "Absence de formalisation du processus de séléction particulier des acteurs de la SSI.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

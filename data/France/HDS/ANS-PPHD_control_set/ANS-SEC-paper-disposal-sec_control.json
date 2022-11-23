@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Secure disposal of paper copies",
+    "description": "Paper copies must be destroyed using appropriate means.", 
+    "testingInformation": "Employees must have access to secure paper destruction mecanisms. See NIST 800-88 or ''pgssi_guide_destruction_donnees_v1.0.pd'' for media sanitization guidances.",
+
+    "actionPlanInstructions": "Acquire, deploy and inform about the use of secure means of destruction of paper copies.",
+    "actionPlanTitle": "Appropriate means for the destruction of paper copies not available.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

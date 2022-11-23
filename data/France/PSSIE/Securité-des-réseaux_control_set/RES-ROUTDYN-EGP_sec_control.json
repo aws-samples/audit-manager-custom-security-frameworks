@@ -1,0 +1,15 @@
+{
+    "name": "RES-ROUTDYN-EGP | [TECH] - Sécuriser les sessions EGP",
+    "description": "Lors de la mise en place d’une session EGP avec un pair extérieur sur un média partagé, cette session doit s’accompagner d’un mot de passe de type message-digest-key.",
+    "testingInformation": "Utilisation de configurations sécurisées lors du déploiement du protocole EGP.",
+    "actionPlanInstructions": "Déploiement du protocole EGP selon une configuration conforme.",
+    "actionPlanTitle": "Configuration du protocole EGP non-conforme.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

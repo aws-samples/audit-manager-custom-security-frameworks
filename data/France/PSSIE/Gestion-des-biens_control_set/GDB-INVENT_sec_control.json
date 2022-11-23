@@ -1,0 +1,15 @@
+{
+    "name": "GDB-INVENT | [TECH] - Inventaire des ressources informatiques",
+    "description": "Chaque entité établit et maintient à jour un inventaire des ressources informatiques sous sa responsabilité, en s’appuyant sur un outillage adapté. Cet inventaire est tenu à disposition du RSSI, ainsi que du FSSI et de l’ANSSI en cas de besoin de coordination opérationnelle. Il comprend la liste des « briques » matérielles et logicielles utilisées, ainsi que leurs versions exactes. Il est constitué d’une base de données de configuration, maintenue à jour et tenue à disposition du RSSI. L’historique des attributions des biens inventoriés doit être conservé, dans le respect de la législation.",
+    "testingInformation": "1. Déploiement d'AWS Config et AWS System Manager afin d'établir la liste des ressources informatiques provisionnées.\n2. Utilisation d'un système de tag afin d'identifier les équipes responsables des ressources.",
+    "actionPlanInstructions": "1. L'ensemble des ressources provisionnées est disponible sur AWS via l'utilisation des API des services (list).\n2. L'utilisation d'AWS Config et d'AWS System Manager permet d'établir une vue exhaustive des configurations et logiciels déployés.\n3. L'utilisation d'AWS Resource Groups permet de mettre en place une politique de tagging des resources permettant de définir les responsabilités des différentes équipes sur les ressources.",
+    "actionPlanTitle": "Absence d'un inventaire consolidé des ressources informatiques et des responsabilités.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

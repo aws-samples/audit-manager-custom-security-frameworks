@@ -1,0 +1,16 @@
+{
+    "name": "PDT-MUL-SECNUM | [GRC/TECH] - Sécurisation de la fonction de numérisation",
+    "description": "Lorsqu’elle est activée, la fonction de numérisation sur les copieurs multifonctions hébergés dans une entité doit être sécurisée. Les mesures de sécurité suivantes doivent notamment être appliquées : envoi de documents uniquement à destination d’une adresse de messagerie interne à l’entité, envoi uniquement à une seule adresse de messagerie.",
+    "testingInformation": "La fonction de numérisation des copieurs multifonctions fait l'objet d'un durcissement selon une procédure formalisée.",
+    "actionPlanInstructions": "Formalisation et application des configurations de sécurité à appliquer à la fonction de numérisation des copieurs multifonctions.",
+    "actionPlanTitle": "Absence de formalisation et d'application du durcissement de la fonction de numérisation des copieurs multifonctions.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

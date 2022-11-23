@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/TECH] - Data location selection",
+    "description": "The provider must inform the customer of the storage locations and allow the latter to choose the country or countries where the health data will be stored and must implement measures to respect this choice.", 
+    "testingInformation": "Customers of the provider must be able to choose the location where data will be stored after being informed of all the location available.",
+
+    "actionPlanInstructions": "Customers must be able to choose the location for their data amongst the one supported by the offering.",
+    "actionPlanTitle": "Selection of locations not available to customers",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

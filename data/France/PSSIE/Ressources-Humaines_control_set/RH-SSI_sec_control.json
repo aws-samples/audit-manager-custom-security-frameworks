@@ -1,0 +1,15 @@
+{
+    "name": "RH-SSI | [GRC] - Charte d’application SSI",
+    "description": "Une charte d’application de la politique SSI, récapitulant les mesures pratiques d’utilisation sécurisée des ressources informatiques et élaborée sous le pilotage de la chaîne fonctionnelle SSI, est communiquée à l’ensemble des agents de chaque entité. Cette charte doit être opposable juridiquement et, si possible, intégrée au règlement intérieur de l’entité. Le personnel non permanent (stagiaires, intérimaires, prestataires...) est informé de ses devoirs dans le cadre de son usage des SI de l’État.",
+    "testingInformation": "Charte d'application de la politique SSI disponible.",
+    "actionPlanInstructions": "Rédaction et communication de la charte d'application de la politique SSI.",
+    "actionPlanTitle": "Charte d'application de la politique SSI non rédigée et non communiquée.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

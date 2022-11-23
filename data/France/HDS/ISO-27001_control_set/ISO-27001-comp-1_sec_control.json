@@ -1,0 +1,20 @@
+{
+    "name": "ISO 27001 | [GRC] - Additional requirement (chapter 4.3 of standard NF ISO 27001)",
+    "description": "The provider must determine the scope of the information security management system (ISMS) taking into account the objective to protect personal health data in addition tothe issues and requirements already considered.This scope of application must at least cover all of the provider’s personal health data hosting activities.", 
+    "testingInformation": "The scope of the ISMS has been clarified and assets falling under the supervision of said ISMS are identified.",
+
+    "actionPlanInstructions": "The use of a clear and established tagging strategy will allow you to clearly identify assets that fall under the scope of the security requirements.",
+    "actionPlanTitle": "Identification of assets not satisfying.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Security engineer | Cloud engineer | Project Team",   
+        "sourceDescription": "The assets should be clearly tagged for them to be identified and for security controls to be in place.",
+        "sourceType": "MANUAL",
+        "troubleshootingText": "See AWS best practices : https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html .",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,15 @@
+{
+    "name": "RES-INTERCOGEO | [TECH] - Interconnexion des sites géographiques locaux d’une entité",
+    "description": "L’interconnexion au niveau local de réseaux locaux d’une entité n’est possible que si la proximité géographique le justifie et sous réserve de la mise en place de connexions dédiées à cet effet, et de passerelles sécurisées et validées par le HFDS.",
+    "testingInformation": "Les réseaux locaux ne sont interconnectés que si la proximité géographique le justifie et via une passerelle dédiée et validée.",
+    "actionPlanInstructions": "Refonte de la topologie et des interconnexions des réseaux locaux.",
+    "actionPlanTitle": "Réseaux locaux interconnectés sans justifications et via des passerelles non validées.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

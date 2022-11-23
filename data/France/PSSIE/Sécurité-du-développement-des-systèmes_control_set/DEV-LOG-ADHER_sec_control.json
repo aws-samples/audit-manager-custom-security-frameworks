@@ -1,0 +1,16 @@
+{
+    "name": "DEV-LOG-ADHER | [TECH] - Réduire l’adhérence des applications à des produits ou technologies spécifiques",
+    "description": "Le fonctionnement d’une application s’appuie sur un environnement logiciel et matériel. En phases de conception et de spécification technique, il est nécessaire de s’assurer que les applications n’ont pas une trop forte adhérence vis-à-vis des environnements sur lesquels elles reposent. En effet, l’apparition de failles sur un environnement a de fait un impact sur la sécurité des applications qui en dépendent. En plus du maintien en condition de sécurité propre à l’application, il est donc nécessaire de pouvoir aire évoluer son environnement pour garantir sa sécurité dans la durée.",
+    "testingInformation": "Utilisation de patterns logiciels et d'architecture visant la réversibilité des applications.",
+    "actionPlanInstructions": "1. Réalisation d'un audit de code et d'architecture des applications et services.\n2. Utilisation prioritaire des conteneurs pour déployer les applications et services.\n3. Evaluation des conditions de réversibilité.",
+    "actionPlanTitle": "Absence de déploiement de configurations minimisant les informations retournés par les ressources en production.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "CONTR-BILAN-SSI | [GRC] - Bilan annuel",
+    "description": "Chaque ministère établit un bilan annuel mesurant sa maturité SSI globale. L’ANSSI consolide l’ensemble de ces bilans. Le document de synthèse est soumis au Premier ministre.",
+    "testingInformation": "Un bilan annuel de la maturité SSI est établi.",
+    "actionPlanInstructions": "Réalisation d'un bilan annuel de la maturité SSI.",
+    "actionPlanTitle": "Absence de la réalisation d'un bilan annuel de maturité SSI.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/LEGAL] - Purpose of data collection and processing (2)",
+    "description": "The provider must not use the health data that it hosts for any purposes other than the performance of the hosting services. In particular, it is prohibited from using said data for marketing, advertising, commercial or statistical purposes.", 
+    "testingInformation": "The processing of the data as per the the set of instructions agreed upon has been documented, audited and reflect that it is been strictly followed.",
+
+    "actionPlanInstructions": "Minimize data processing to respect the purpose of the collection and processing of data.",
+    "actionPlanTitle": "Data collection and processing not compliant.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

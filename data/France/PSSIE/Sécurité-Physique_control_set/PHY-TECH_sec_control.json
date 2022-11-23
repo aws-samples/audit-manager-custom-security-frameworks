@@ -1,0 +1,16 @@
+{
+    "name": "PHY-TECH | [GRC] - Sécurité physique des locaux techniques",
+    "description": "L’accès aux locaux techniques abritant des équipements d’alimentation et de distribution d’énergie, ou des équipements de réseau et de téléphonie, doit être physiquement protégé.",
+    "testingInformation": "Mesures déployées par AWS récupérées et validées.",
+    "actionPlanInstructions": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "actionPlanTitle": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

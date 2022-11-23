@@ -1,0 +1,5 @@
+{
+    "name": "AWS HDS",
+    "complianceType": "France Healthcare Security Controls",
+    "description": "Introduced by the French governmental agency for health, “Agence du Numérique en Santé” (ANS), the HDS (Hébergeur de Données de Santé) certification aims to strengthen the security and protection of personal health data. Achieving this certification demonstrates that your entity provides a framework for technical and governance measures to secure and protect personal health data, governed by French law. The HDS certification validates that your organisation ensures data confidentiality, integrity, and availability to its customers and partners. AWS worked with an independent third-party auditor to achieve the certification."
+}

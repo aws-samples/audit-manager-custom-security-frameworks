@@ -1,0 +1,15 @@
+{
+    "name": "RES-DURCI | [TECH] - Durcir les configurations des équipements de réseaux",
+    "description": "Les équipements de réseaux (comme les routeurs) doivent faire l’objet d’un durcissement spécifique comprenant notamment, outre le changement des mots de passe et certificats, la désactivation des interfaces et services inutiles, ainsi que la mise en place de mécanismes de protection du plan de contrôle.",
+    "testingInformation": "Les équipements réseaux font l'objet d'un durcissement de leurs configurations.",
+    "actionPlanInstructions": "1. Durcissement des configurations réseaux déployées selon un guide définit\n2. Utilisation des composants réseaux natif à AWS.",
+    "actionPlanTitle": "Absence de durcissement des équipements réseaux.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

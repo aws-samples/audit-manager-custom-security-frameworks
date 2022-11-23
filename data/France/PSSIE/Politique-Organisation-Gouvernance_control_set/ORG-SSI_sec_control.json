@@ -1,0 +1,17 @@
+{
+    "name": "ORG-SSI | [GRC] - Organisation SSI",
+    "description": "Une organisation dédiée à la SSI est déployée à tous les niveaux de l’État, au sein de chaque ministère et au sein de chaque entité suivant les principes de l’IGI 1300. Cette organisation, établie selon les directives du haut fonctionnaire de défense et de sécurité (HFDS), définit les responsabilités internes et à l'égard des tiers, les modalités de coordination avec les autorités externes, ainsi que les modalités d’application des mesures de protection. Des procédures d’applications sont écrites et portées à la connaissance de tous.",
+    "testingInformation": "L'organisation de la sécurité est formalisée selon les directive du HFDS.",
+    "actionPlanInstructions": "Une formalisation de l'organisation de la sécurité doit être mis en place au niveau du système d'information permettant d'appliquer les principes de l'IGI 1300. Selon les directives établies par le HFDS, cette organisation définit, formalise et communique les responsabilités et obligations en matière de sécurité informatique.",
+    "actionPlanTitle": "Absence de formalisation de l'organisation de sécurité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

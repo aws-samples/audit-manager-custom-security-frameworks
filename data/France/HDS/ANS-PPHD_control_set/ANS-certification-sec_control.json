@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Certification audit reports available uppon request",
+    "description": "The provider must provide certification audit reports to any customers who request them. The provider must also provide such reports to the certification body, in the event of transfer or request for recognition of equivalency.", 
+    "testingInformation": "A procedure framing the communication of audit reports of valid certification owned by the provider has been defined and implemented.",
+
+    "actionPlanInstructions": "Define and implement the requested procedure.",
+    "actionPlanTitle": "Procedure to communicate certification audit reports not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

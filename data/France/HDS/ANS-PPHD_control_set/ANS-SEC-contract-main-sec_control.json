@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/LEGAL] - Contracts & subcontractors",
+    "description": "In the event of the provider having recourse to subcontracting, the related contract must specify the technical and organizational measures provided for to meet the objectives for the security and protection of personal data. Changes in these measures must not result in the level of security being reduced without the prior agreement of the provider. The provider must ensure that this level of security is in line with its commitments to its customers.", 
+    "testingInformation": "1. Contracts between the provider and its subcontractors provide the requested information and compliance requirements are met.\n2. A procedure has been defined and implemented to gather the provider approval when modification are made to the implemented measures.",
+
+    "actionPlanInstructions": "1. Review the writing of contracts to include the requested information.\n2. Define and implement a procedure to handle change in implemented security measures.",
+    "actionPlanTitle": "Contracts are not including the requested information and no procedure is in place to handle changes in implemented security measures.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

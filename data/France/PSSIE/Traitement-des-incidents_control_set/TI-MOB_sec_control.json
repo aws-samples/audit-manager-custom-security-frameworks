@@ -1,0 +1,16 @@
+{
+    "name": "TI-MOB | [GRC] - Mobilisation en cas d’alerte",
+    "description": "En cas d’alerte de sécurité identifiée au niveau national, les RSSI de chaque entité s’assurent de la bonne application des exigences formulées par les instances nationales, dans les meilleurs délais.",
+    "testingInformation": "Le RSSI est identifié comme le pilote de la réponse aux alertes de sécurité de niveau national.",
+    "actionPlanInstructions": "Identification du RSSI comme le pilote des actions de réponse à incident lors d'évènements de sécurité de niveau national.",
+    "actionPlanTitle": "Absence d'identification du RSSI comme le pilote des actions de réponse à incident lors d'évènements de sécurité de niveau national.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "INT-TDB | [GRC/Tech] - Créer un tableau de bord SSI",
+    "description": "Un tableau de bord SSI est mis en place et tenu à jour. Il fournit au RSSI et aux autorités une vision générale du niveau de sécurité et de son évolution, rendant ainsi plus efficace le pilotage de la SSI. Au niveau stratégique, le tableau de bord SSI permet de suivre l’application de la politique de sécurité et de disposer d’éléments propres à qualifier les ressources devant être allouées à la SSI. Au niveau du pilotage, la mise en place de ce tableau de bord permet de contrôler la réalisation d’objectifs opérationnels, d’améliorer la qualité de service et de détecter au plus tôt les retards dans la réalisation de certains objectifs de sécurité.",
+    "testingInformation": "1. Un tableau de bord et une gouvernance SSI des projets est mise en place.\n2. AWS Security Hub et Amazon GardDuty sont activé.",
+    "actionPlanInstructions": "1. Mise en place d'un tableau de bord et d'une gestion projet de la SSI.\n2. Utilisation d'AWS Security Hub afin de disposer d'un tableau de bord des items de sécurité à conduire sur AWS.",
+    "actionPlanTitle": "Absence d'une tableau de bord et d'une gestion projet de la SSI.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

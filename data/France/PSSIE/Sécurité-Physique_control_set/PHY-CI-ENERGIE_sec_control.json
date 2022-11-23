@@ -1,0 +1,16 @@
+{
+    "name": "PHY-CI-ENERGIE | [GRC] - Local énergie",
+    "description": "L’alimentation secteur des équipements devra être conforme aux règles de l’art, de façon à se prémunir des atteintes à la sécurité des personnes et équipements liées à un défaut électrique.",
+    "testingInformation": "Mesures déployées par AWS récupérées et validées.",
+    "actionPlanInstructions": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+    "actionPlanTitle": "Récupération et évaluation des mesures déployées par AWS depuis les rapports d'audit disponibles depuis AWS Artifact.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

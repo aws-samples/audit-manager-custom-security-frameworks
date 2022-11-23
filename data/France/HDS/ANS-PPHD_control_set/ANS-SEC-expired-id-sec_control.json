@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [TECH] - Expired user IDs must not be recycled.",
+    "description": "De-activated or expired user IDs should not be assigned to other individuals.", 
+    "testingInformation": "1. The process for generating IDs must ensure that issued credentials are unique\n2. When IDs are expired they must not be recycled or re-attributed.",
+
+    "actionPlanInstructions": "1. Use appropriate random generators to generate uuid.\n2. Standardize the use of temporary sessions when possible\n3. Identify and remove the processes recycling IDs",
+    "actionPlanTitle": "IDs are not unique or being recycled.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "INT-REX-AR| [GRC] - Analyse de risques",
+    "description": "Toute opération d’externalisation s’appuie sur une analyse de risques préalable, de façon à formaliser des objectifs de sécurité et définir des mesures adaptées. L’ensemble des objectifs de sécurité ainsi formalisés permet de définir une cible de sécurité servant de cadre au contrat établi avec le prestataire.",
+    "testingInformation": "1. L'utilisation d'AWS a fait l'objet d'une décision documentée et formalisée.\n2. Les objectifs de sécurité sont précisés.",
+    "actionPlanInstructions": "Formalisation de la décision d'externalisation ainsi que des objectifs de sécurité.",
+    "actionPlanTitle": "Absence d'un document formalisant la décision d'externalisation et les objectifs de sécurité au regard des risques et de la sensibilité associés au projet.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

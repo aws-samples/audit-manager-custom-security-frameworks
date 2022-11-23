@@ -1,0 +1,16 @@
+{
+    "name": "INT-REX-HB| [TECH] - Hébergement",
+    "description": "L’hébergement des données sensibles de l’administration sur le territoire national est obligatoire, sauf accord du HFDS, et dérogation dûment motivée et précisée dans la décision d’homologation.",
+    "testingInformation": "Lorsque des données sensibles sont traitées sur AWS, les traitement s'effectue au sein de la région Française (eu-west-3).",
+    "actionPlanInstructions": "Utilisation et migration des systèmes d'information identifiés comme sensible dans la région Française (eu-west-3).",
+    "actionPlanTitle": "Absence d'utilisation de la région Française (eu-west-3) pour l'hébergement de systèmes d'information identifiés comme sensible.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

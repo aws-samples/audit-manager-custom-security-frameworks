@@ -1,0 +1,16 @@
+{
+    "name": "INT-HOMOLOG-SSI | [GRC] - Homologation de sécurité des systèmes d’information",
+    "description": "Tout système d’information doit faire l’objet d’une décision d’homologation de sa sécurité avant sa mise en exploitation dans les conditions d’emploi définies. L’homologation est l’acte selon lequel l’autorité atteste formellement auprès des utilisateurs que le système d’information est protégé conformément aux objectifs de sécurité fixés. La décision d’homologation est prise par l’autorité d’homologation (désignée par l’autorité qualifiée), le cas échéant après avis de la commission d’homologation. Cette décision s’appuie sur une analyse de risques adaptée aux enjeux du système considéré, et précise les conditions d’emploi.",
+    "testingInformation": "les systèmes d'information font l'objet d'une décision d'homologation avant la mise en exploitation.",
+    "actionPlanInstructions": "Formalisation et application de la procédure d'homologation selon les référentiels gouvernementaux.",
+    "actionPlanTitle": "Absence de décision d'homologation des systèmes d'information en exploitation.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "PDT-GEST | [TECH] - Fourniture et gestion des postes des travail",
+    "description": "Les postes de travail utilisés dans le cadre professionnel sont fournis et gérés par l’équipe locale chargée des SI.",
+    "testingInformation": "Les postes de travail professionnels sont fournis et gérés par l'entité.",
+    "actionPlanInstructions": "Gestion des postes de travail par l'entité.",
+    "actionPlanTitle": "Les postes de travails professionnels ne sont pas fournis ni gérés par l'entité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

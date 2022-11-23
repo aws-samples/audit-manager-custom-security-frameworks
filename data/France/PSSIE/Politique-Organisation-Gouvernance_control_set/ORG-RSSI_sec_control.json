@@ -1,0 +1,16 @@
+{
+    "name": "ORG-RSSI | [GRC] - Désignation du responsable SSI",
+    "description": "Chaque autorité qualifiée en sécurité des systèmes d’information (AQSSI) s’appuie sur un ou plusieurs responsables de la sécurité des systèmes d’information (RSSI), chargé(s) de l’assister dans le pilotage et la gestion de la SSI. Des « correspondants locaux SSI » peuvent être désignés, le cas échéant, afin de constituer un relais du RSSI. Le RSSI d’une entité fait valider les mesures d’application de la PSSIE par l’autorité qualifiée et veille à leur application. Des dénominations alternatives des fonctions citées ci-dessus peuvent être utilisées si nécessaire.",
+    "testingInformation": "RSSI et/ou correspondant SSI pour les systèmes d'information identifiés, désignés, formés et informés.",
+    "actionPlanInstructions": "Désignation du RSSI ou correspond SSI pour le système d'information.",
+    "actionPlanTitle": "Absence de la désignation d'un RSSI pour le système d'information pour le périmètre considéré.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

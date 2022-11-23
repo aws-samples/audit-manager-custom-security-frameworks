@@ -1,0 +1,16 @@
+{
+    "name": "PDT-VEROUIL-FIXE | [TECH] - Verrouillage de l’unité centrale des postes fixes",
+    "description": "Lorsque l’unité centrale d’un poste fixe est peu volumineuse, donc susceptible d’être facilement emportée, elle doit être protégée contre le vol par un système d’attache (par exemple un câble antivol).",
+    "testingInformation": "Lorque les unités centrales sont peu volumineuses, elles font l'objet de mesures de protection contre le vol.",
+    "actionPlanInstructions": "Application de mesures anti-vol sur les unités centrales peu volumineuses.",
+    "actionPlanTitle": "Absence de mesures de protection contre le vol sur les unités centrales peu volumineuses.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

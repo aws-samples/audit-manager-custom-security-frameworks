@@ -1,0 +1,16 @@
+{
+    "name": "PDT-PART-FIC | [TECH] - Partage de fichiers",
+    "description": "Le partage de répertoires ou de données hébergées localement sur les postes de travail n’est pas autorisé.",
+    "testingInformation": "Blocage de la fonctionnalité de partage de fichier sur les postes utilisateurs.",
+    "actionPlanInstructions": "Configuration des postes utilisateurs afin de bloquer la fonctionnalité de partage de fichier.",
+    "actionPlanTitle": "Absence de blocage de la fonctionalité de partage de fichier sur les postes utilisateurs.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

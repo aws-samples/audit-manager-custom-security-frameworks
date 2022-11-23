@@ -1,0 +1,19 @@
+{
+    "name": "ISO 27001 | [GRC]",
+    "description": "Physical infrastructure providers and IT managed services providers must be certified to NF-ISO 27001.", 
+    "testingInformation": "Scoped solutions and organizations have been certified.",
+
+    "actionPlanInstructions": "1. AWS Audit Manager ISO-IEC 27001:2013 Annex A from the framework library can be leveraged to facilitate the obtention of the certification.\n2. Getting expert guidances from an accredited ISO 27001 professionals will help identify gaps and provide a clear path toward the obtention of the certification.",
+    "actionPlanTitle": "ISO 27001 not attained.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Accredited certification authority",   
+        "sourceDescription": "An accredited certification authority should deliver the ISO-27001 certification.",
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

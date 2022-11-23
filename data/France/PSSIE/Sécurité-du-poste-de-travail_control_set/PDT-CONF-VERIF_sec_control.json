@@ -1,0 +1,16 @@
+{
+    "name": "PDT-CONF-VERIF | [TECH] - Utiliser des outils de vérification automatique de la conformité",
+    "description": "Un outil de vérification régulière de la conformité des éléments de configuration des postes de travail doit être mis en place, afin d’éviter une dérive dans le temps de ces éléments de configuration.",
+    "testingInformation": "Un outil de vérification de la conformité des configurations déployées sur les postes de travail est actif.",
+    "actionPlanInstructions": "Déploiement d'un outil permettant la vérification des configurations déployées sur les postes de travail.",
+    "actionPlanTitle": "Absence d'un outil permettant la vérification automatique et régulière des configurations déployées sur les postes de travail.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,18 @@
+{
+    "name": "ANS | MSP | [GRC/TECH] - Processing of temporary data",
+    "description": "The provider must define a data retention period and comply with this deadline. The provider must document and set up the means to ensure that temporary data is deleted upon the expiry of this deadline.", 
+    "testingInformation": "Procedures and mecanisms has been put in place in order to specify the data retention period and the deletion mecanisms.",
+
+    "actionPlanInstructions": "Define a maximal data retention period and automate the deletation of temporary data. Identify data stores and use Lifecycle, data stream and expiration policies.",
+    "actionPlanTitle": "Automation of the deletion of temporary data not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

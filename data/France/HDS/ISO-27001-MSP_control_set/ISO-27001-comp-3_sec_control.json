@@ -1,0 +1,20 @@
+{
+    "name": "ISO 27001 | MSP | [GRC] - Additional requirement (Annex A12.3 of standard NF ISO 27001)",
+    "description": "In the event of the outsourcing of health data backups, the host must guarantee the security of such backups, whatever the backup medium.", 
+    "testingInformation": "1. The ISMS takes into account the health data backups, in particular their security according to criteria relating to confidentiality, integrity and traceability during transfers and throughout the retention of the data.\n2. Backup security measures are implemented.",
+
+    "actionPlanInstructions": "The use of AWS Backup is recommended to automate the creation of backups and their placement in different geographic area. Backups are stored in S3 and benefit from the built-in durability. Backups can be encrypted.",
+    "actionPlanTitle": "Backup security measures not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Security engineer | Cloud engineer",   
+        "sourceDescription": "Backup security measure should be in place and documented on the scoped assets.",
+        "sourceType": "MANUAL",
+        "troubleshootingText": "AWS Config and Amazon Macie can be used to further automate the security controls.",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

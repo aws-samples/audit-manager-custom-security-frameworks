@@ -1,0 +1,16 @@
+{
+    "name": "INT-SSI | [GRC] - Intégration de la sécurité dans les projets",
+    "description": "La sécurité des systèmes d’information doit être prise en compte dans toutes les phases des projets informatiques, sous le contrôle de l’autorité d’homologation, de la conception et de la spécification du système jusqu’à son retrait du service.",
+    "testingInformation": "La démarche d'intégration de la sécurité dans les projets cloud est formalisée et appliquée.",
+    "actionPlanInstructions": "Formalisation et application d'une procédure projet et de gouvernance d'intégration de la sécurité informatique dans les projets utilisant AWS.",
+    "actionPlanTitle": "Absence d'une démarche d'intégration de la sécurité des systèmes d'information dans les projets informatiques.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

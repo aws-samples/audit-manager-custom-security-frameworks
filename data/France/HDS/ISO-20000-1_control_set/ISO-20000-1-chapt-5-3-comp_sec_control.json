@@ -1,0 +1,19 @@
+{
+    "name": "NF ISO 20000-1 chapter 5.3 - Additional requirement | [GRC]",
+    "description": "The provider must define acceptance criteria for any new service or for any change to a service and must perform acceptance tests before they are brought into service.", 
+    "testingInformation": "1. Ensure that the IT managed services provider has set up a methodology for the verification of the applications that it hosts.\n2. Verify that the IT managed services provider has formalized a procedure to define hosting prerequisites and a procedure to verify these prerequisites (the prerequisites must include, at the very least, the installation instructions and the operating instructions).\n 3. Verify that the IT managed services provider has formalized a structured test and validation process providing objective proof that the future service will not disrupt the overall performance of the hosted system and will not impair its level of security.",
+
+    "actionPlanInstructions": "Getting expert guidances from an accredited ISO 20000 professionals will help identify gaps and provide a clear path toward the obtention of the certification.",
+    "actionPlanTitle": "Requirements of chapter 5.3 (b) of NF ISO 20000-1 not attained.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceDescription": "Requirements of chapter 5.2 of NF ISO 20000-1 must be implemented.",
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

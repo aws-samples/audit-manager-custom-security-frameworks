@@ -1,0 +1,16 @@
+{
+    "name": "PDT-NOMAD-PAREFEU | [TECH] - Pare-feu local",
+    "description": "Un pare-feu local conforme aux directives nationales doit être installé sur les postes nomades.",
+    "testingInformation": "Une pare-feu local, conforme aux directives nationales est installé sur les postes nomades.",
+    "actionPlanInstructions": "Installation d'un pare-feu local, conforme aux directives nationales sur les postes nomades.",
+    "actionPlanTitle": "Absence pare-feu local, conforme aux directives nationales sur les postes nomades.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

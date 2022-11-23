@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - PII disclosure to authorities notification",
+    "description": "Court-ordered seizures that include personal data must be governed contractually. A procedure must define the conditions under which such a transfer is notified to the customer, unless such notification is prohibited.", 
+    "testingInformation": "Procedures framing the disclosing of personal data to authorities and the notification of customers have been documented, implememented and made available.",
+
+    "actionPlanInstructions": "Define and implement the requested procedure.",
+    "actionPlanTitle": "Procedures to handle authorities request and customer notification not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

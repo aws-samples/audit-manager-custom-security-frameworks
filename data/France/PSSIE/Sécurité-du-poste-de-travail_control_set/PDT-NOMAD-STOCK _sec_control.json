@@ -1,0 +1,16 @@
+{
+    "name": "PDT-NOMAD-PAREFEU | [GRC/TECH] - Stockage local d’information sur les postes nomades",
+    "description": "Le stockage local d’information sur les postes de travail nomades doit être limité au strict nécessaire. Les informations sensibles doivent être obligatoirement chiffrées par un moyen de chiffrement labellisé.",
+    "testingInformation": "Le stockage d'information sur les postes de travail nomades est limité et des solutions de chiffrements sont disponibles afin de chiffrer les informations sensibles.",
+    "actionPlanInstructions": "1. Contrôle et sensibilisation du stockage de données sensible sur un poste portables.\n2. Proposition de solution de chiffrement pour les données sensibles.",
+    "actionPlanTitle": "Absence de contrôle et de sensibilisation au stockage des données sur les postes portables. Absence de solution de chiffrement disponible pour les données sensibles.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

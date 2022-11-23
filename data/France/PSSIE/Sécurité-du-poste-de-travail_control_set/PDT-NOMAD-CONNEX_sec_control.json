@@ -1,0 +1,16 @@
+{
+    "name": "PDT-NOMAD-CONNEX | [TECH] - Configuration des interfaces de connexion sans fil",
+    "description": "La configuration des interfaces de connexion sans fil doit interdire les usages dangereux de ces interfaces.",
+    "testingInformation": "La configuration des interfaces de connexion sans fil interdit les usages dangereux de ces interfaces.",
+    "actionPlanInstructions": "Durcissement des interfaces de connexion sans fil des postes nomades.",
+    "actionPlanTitle": "Absence de durcissement des configurations des interfaces de connexion sans fil.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

@@ -1,0 +1,16 @@
+{
+    "name": "PCA-MINIS | [GRC] - Définition du plan ministériel de continuité d’activité des Systèmes d’Information",
+    "description": "Chaque ministère définit un plan de continuité d’activité ministériel des systèmes d’information permettant d’assurer, en cas de sinistre, la continuité d’activité des systèmes d’information.",
+    "testingInformation": "Un plan ministèriel fixant les objectifs de résilience et de continuité d'activité est formalisé, appliqué et testé.",
+    "actionPlanInstructions": "Formalisation, application et test du plan ministèriel fixant les objectifs de résilience des systèmes d'information.",
+    "actionPlanTitle": "Absence de formalisation, application et test d'un plan fixant les objectifs de résilience et de continuité des systèmes d'information.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

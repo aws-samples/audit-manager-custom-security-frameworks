@@ -1,0 +1,16 @@
+{
+    "name": "PDT-TEL-CODES | [GRC] - Codes d’accès téléphoniques",
+    "description": "Il est nécessaire de sensibiliser les utilisateurs au besoin de modifier le code d’accès de leur téléphone et de leur messagerie vocale.",
+    "testingInformation": "Les utilisateurs sont sensibilisés à la configuration de leurs comptes et appareils.",
+    "actionPlanInstructions": "Sensibilisation des utilisateurs à la bonne configuration de leurs comptes et appareils.",
+    "actionPlanTitle": "Absence de sensibilisation des utilisateurs à la configuration de leurs comptes et appareils.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

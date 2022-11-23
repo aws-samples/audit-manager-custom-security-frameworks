@@ -1,0 +1,15 @@
+{
+    "name": "RES-CLOIS | [TECH] - Cloisonner le SI en sous-réseaux de niveaux de sécurité homogènes",
+    "description": "Par analogie avec le cloisonnement physique d’un bâtiment, le système d’information doit être segmenté selon des zones présentant chacune un niveau de sécurité homogène.",
+    "testingInformation": "Les différents domaines des systèmes d'information font l'objet d'un cloisonnement réseaux.",
+    "actionPlanInstructions": "1. Création d'autant de VPC que de domaines.\n2. Partition des domaines avec des subnets\n3. Utilisation de mécanismes de routage différents entre composants réseaux présentant des sensibilités différentes.",
+    "actionPlanTitle": "Absence de cloisonnement réseaux entre les différents domaines des systèmes d'information.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

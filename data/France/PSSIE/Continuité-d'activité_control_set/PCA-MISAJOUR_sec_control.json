@@ -1,0 +1,16 @@
+{
+    "name": "PCA-MISAJOUR | [GRC] - Mise à jour du plan local de continuité d’activité des systèmes d’information",
+    "description": "Le RSSI d’une entité assure le maintien à jour du plan local de continuité d’activité des Systèmes d’Information.",
+    "testingInformation": "Les plans de continuité et de reprise d'activité sont revus régulièrements par le RSSI.",
+    "actionPlanInstructions": "Relecture et validation régulière des plans de continuité et de reprise d'activité.",
+    "actionPlanTitle": "Absence de relecture régulière des plans de continuité et de reprise d'activité.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance.",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

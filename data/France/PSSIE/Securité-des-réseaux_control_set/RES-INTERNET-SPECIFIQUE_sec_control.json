@@ -1,0 +1,15 @@
+{
+    "name": "RES-INTERNET-SPECIFIQUE | [TECH] - Cas particulier des accès spécifiques dans une entité",
+    "description": "Les accès spécifiques à Internet nécessitant des droits particuliers pour un usage métier ne peuvent être mis en place que sur dérogation dûment justifiée, et sur des machines isolées physiquement et séparées du réseau de l’entité, après validation préalable de l’autorité d’homologation.",
+    "testingInformation": "Les machines nécessitant un accès spécifiques à internet sont identifiées, et déployées dans des enclaves réseaux dédiées et isolées.",
+    "actionPlanInstructions": "Utilisation d'Amazon VPC et création d'enclaves réseaux dédiées et isolées aux machines nécessitant un accès internet.",
+    "actionPlanTitle": "Absence d'enclave dédié aux machines nécessitant un accès internet spécifique.",
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]  
+}

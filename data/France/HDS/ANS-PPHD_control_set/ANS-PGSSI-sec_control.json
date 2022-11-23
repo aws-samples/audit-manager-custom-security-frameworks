@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC/LEGAL/TECH] - Global Information Security Policy for the healthcare sector",
+    "description": "The provider must inform its customers that they are required to comply with the PGSSI-S (global information security policy for the healthcare sector) and must implement a means of obtaining their commitment to comply with this policy.", 
+    "testingInformation": "1. The provider must inform its customers that they are required to implement a health information system in compliance with the PGSSI-S.\n2. The provider must define and implement a means of obtaining its customers’ commitment to comply with the enforceable reference systems of the PGSSI-S. This commitment could be subject to provisions set out in the hosting agreement.",
+
+    "actionPlanInstructions": "Customers must be able to choose the location for their data amongst the one supported by the offering.",
+    "actionPlanTitle": "Customers not informed about requested compliance with the PGSSI-S and absence of enforcement mecanisms.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance | Legal | Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

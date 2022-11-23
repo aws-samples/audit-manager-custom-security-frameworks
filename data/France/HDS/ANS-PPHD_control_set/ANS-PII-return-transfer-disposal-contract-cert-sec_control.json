@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Return, transfer and disposal of PII (2)",
+    "description": "A reversibility procedure defining the methods of return of the data at the end of the contract or upon withdrawal of certification must be formalized and applied.", 
+    "testingInformation": "A procedure framing the methods of return of the data at the end of the contract or upon withdrawal of the certification has been defined and implemented.",
+
+    "actionPlanInstructions": "Define and implement a procedure to explicit the methods of return of the data at the end of the contract or upon withdrawal of the certification.",
+    "actionPlanTitle": "Requested procedure not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

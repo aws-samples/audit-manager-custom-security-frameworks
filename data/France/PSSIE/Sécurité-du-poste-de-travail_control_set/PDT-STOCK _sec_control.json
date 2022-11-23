@@ -1,0 +1,16 @@
+{
+    "name": "PDT-STOCK | [TECH] - Stockage des informations",
+    "description": "Dans la mesure du possible, les données traitées par les utilisateurs doivent être stockées sur des espaces réseau, eux-mêmes sauvegardés selon les exigences des entités et en accord avec les règles de sécurité en vigueur.",
+    "testingInformation": "Les données traitées par les utilisateurs sont stockées sur des espaces réseaux faisant l'objet de mesures de sécurité adapté.",
+    "actionPlanInstructions": "1. Utilisation d'Amazon Workdocs sur les postes utilisateur.\n2. Utilisation de volumes et espaces via Amazon S3 et Amazon EFS.\n3. Utilisation d'AWS Backup et des mécanismes de récplication afin de créer les sauvegardes.",
+    "actionPlanTitle": "Absence de stockage des données traitées sur des espaces réseau adaptés.",
+
+    "tags": {
+        "TagKey": "aws-pssie"
+    },
+    "controlMappingSources": [{
+        "sourceName": "Cloud engineer",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}

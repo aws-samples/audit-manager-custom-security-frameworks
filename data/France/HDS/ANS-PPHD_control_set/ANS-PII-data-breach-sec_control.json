@@ -1,0 +1,18 @@
+{
+    "name": "ANS | [GRC] - Notification of a data breach involving PII",
+    "description": "The provider must notify its customer of any breach of personal data as soon as possible after becoming aware thereof.", 
+    "testingInformation": "A procedure framing the notification of customer impacted by a personal data breach has been documented and implemented.",
+
+    "actionPlanInstructions": "Define and implement a procedure to notify customers in the event of a data breach.",
+    "actionPlanTitle": "Notification procedure not in place.",
+
+    "tags": {
+        "TagKey": "aws-hds"
+    },
+
+    "controlMappingSources": [{
+        "sourceName": "Governance risk and compliance",   
+        "sourceType": "MANUAL",
+        "sourceSetUpOption": "Procedural_Controls_Mapping"
+    }]
+}
