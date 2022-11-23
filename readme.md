@@ -10,8 +10,8 @@
 ![Compliance at scale](./img/readme/readme-fr.png)
 
 ## Référentiels de sécurité supportés / Supported security frameworks
-- :gb: Hébergeur de données de santé ([HDS](./data/HDS/readme.md))
-- :fr: Politique de sécurité des systèmes d'information de l'état ([PSSI-E](./data/PSSIE/readme.md))
+- :gb: Hébergeur de données de santé ([HDS](./data/France/HDS/readme.md))
+- :fr: Politique de sécurité des systèmes d'information de l'état ([PSSI-E](./data/France/PSSIE/readme.md))
 
 ## Principes d'architecture
 
