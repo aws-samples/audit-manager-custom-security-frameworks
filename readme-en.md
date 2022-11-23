@@ -22,7 +22,7 @@ The data model can be used in order to quickly create a custom controls that can
 
 Folders that contains controls that must be parsed and grouped within the same control set during the creation of a custom frameworks must end with an identifying sufffixe. By default the suffix is set to ```_control_set```
 
-- ***/out*** : This folder contains the result of the deployment of a custom assessment framework written in the file ```<framework>-framework_output.json```. This file repertories the information associated with a deployment for documentation and deletation purposes.
+- ***/out*** : This folder contains the result of the deployment of a custom assessment framework written in the file ```<directory>-<framework>-framework_output.json```. This file repertories the information associated with a deployment for documentation and deletation purposes.
 
 - ***/src*** : This folder contains the sources required by the solution.
 

@@ -20,11 +20,11 @@ La solution proposée est structurée autour des dossiers et fichiers :
 
 Elle peut être utilisée afin de rapidement créer un cadre d'audit personnalisé qui pourra ensuite être déployé en utilisant le code proposé dans ce répertoire.
 
-- ***/data*** : Le dossier contient contient les exigences de sécurités des cadres français dans un format compatible avec AWS Audit Manager.
+- ***/data*** : Le dossier contient contient les exigences de sécurités des cadres supportés dans un format compatible avec AWS Audit Manager.
 
 Les dossiers devant être parsés et retenus pour la création d'un cadre d'évaluation personnalisé doivent avoir un suffix permettant de les identifier. Par défaut le suffix est configuré sur ```_control_set```.
 
-- ***/out*** : Le dossier contient le résultat du déploiement du cadre d'évaluation (framework), le fichier ```<framework>-framework_output.json```. Ce fichier répertorie les informations liées au déploiement à des fins de documentation, maintenance et suppression.
+- ***/out*** : Le dossier contient le résultat du déploiement du cadre d'évaluation (framework), le fichier ```<directory>-<framework>-framework_output.json```. Ce fichier répertorie les informations liées au déploiement à des fins de documentation, maintenance et suppression.
 
 - ***/src*** : Le dossier contient les sources nécessaires au fonctionnement de la solution proposées.
 
