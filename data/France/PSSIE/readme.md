@@ -11,9 +11,7 @@ La PSSIE fixe les règles de protection applicables aux systèmes d’informatio
 Essentiels à l’action publique, les systèmes d’information sont porteurs d’efficacité, mais aussi de risques : menaces d’exfiltration de données confidentielles, d’atteinte à la vie privée des usagers, voire de sabotage des systèmes d’information. Afin de prendre en compte ces risques, le Premier ministre a défini une politique volontariste, mais également pragmatique par laquelle l’État affiche sa volonté de se montrer exemplaire en matière de cybersécurité.
 La PSSIE s’inscrit dans le cadre des mesures annoncées en Conseil des ministres le 25 mai 2011 pour faire face à la montée des cyber-attaques. La première version a été publiée par circulaire le 17 juillet 2014.
 
-Source : <a href=" https://www.ssi.gouv.fr/entreprise/reglementation/protection-des-systemes-dinformations/la-politique-de-securite-des-systemes-dinformation-de-letat-pssie/">ANSSI</a>
-
-Source : <a href=" https://www.ssi.gouv.fr/uploads/IMG/pdf/pssie_anssi.pdf">ANSSI</a>
+Source : ANSSI
 
 # A propos de la Politique de Sécurité des Systèmes d'Information de l'Etat et d'AWS
 
