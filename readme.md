@@ -57,7 +57,7 @@ Le fichier ```hds-framework_output.json``` est généré dans le dossier /out.
 
 2. Suppression d'un cadre d'évaluation personnalisé : ```node delete_framework -f <file>```
 
-Ex : ```node delete_framework -f ./out/hds-framework_output.json``` supprime l'ensemble des contrôles de sécurité ainsi que le cadre d'évaluation lié au déploiement associé au référentiel d'exigences "HDS". 
+Ex : ```node delete_framework -f ./out/France-HDS-framework_output.json -r eu-west-1``` supprime l'ensemble des contrôles de sécurité ainsi que le cadre d'évaluation lié au déploiement associé au référentiel d'exigences "HDS". 
 
 Le fichier ```hds-framework_output.json``` est supprimé.
 

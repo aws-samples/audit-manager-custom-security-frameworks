@@ -55,7 +55,7 @@ Uppon successful completion : the file ```hds-framework_output.json``` is create
 
 2. To delete a custom framework ```node delete_framework -f <file>```
 
-Ex : ```node delete_framework -f ./out/hds-framework_output.json``` will delete the security controls and the custom assessment framework generated during the creation process.
+Ex : ```node delete_framework -f ./out/France-HDS-framework_output.json -r eu-west-1``` will delete the security controls and the custom assessment framework generated during the creation process.
 
 Uppon successful completion : the file ```hds-framework_output.json``` is deleted.
 

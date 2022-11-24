@@ -17,6 +17,7 @@ async function createSecurityControl(audit_manager, parsed_control_set_list, tag
                 .then((result) => {
                     control_set_object.controls.push({"id":result.control.id, "name":params.name})
                     logger.log(`${control_set.name} | Created control id n* ${result.control.id}`)
+                    logger.created_security_controls +=1
                 })
                 .catch((error) => {
                     logger.log(`${control_set.name} | ${error} | When creating : ${params.name}`, 1)
