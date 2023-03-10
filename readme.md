@@ -39,7 +39,7 @@ Les dossiers devant être parsés et retenus pour la création d'un cadre d'éva
 - Disposer de clefs de sécurité AWS (AK/SK) disposant des permissions (IAM Policy) nécessaire pour intéragir avec AWS Audit Manager.
 
 (Optionel) Depuis AWS Cloudshell
-- Cloner le répertoire ```git clone https://gitlab.aws.dev/guilneau/france-audit-manager.git```
+- Cloner le répertoire ```git clone https://github.com/aws-samples/audit-manager-custom-security-frameworks.git```
 - Installer les dépendances requises : ```npm install```
 - Déployer les cadres de sécurité dans les environnements AWS
 - Exporter le dossier "./out" vers S3, les fichiers permettront de faciliter la suppression des ressources créées.

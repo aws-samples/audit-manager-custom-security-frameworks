@@ -37,7 +37,7 @@ Folders that contains controls that must be parsed and grouped within the same c
 - Have AWS security key (AK/SK) with permission to perform operations on AWS Audit Manager.
 
 (Optional) From AWS Cloudshell
-- Clone the repository ```git clone https://gitlab.aws.dev/guilneau/france-audit-manager.git```
+- Clone the repository ```git clone https://github.com/aws-samples/audit-manager-custom-security-frameworks.git```
 - Install the required dependencies : ```npm install```.
 - Deploy the security frameworks in your account.
 - Export the folder "./out" to S3, they will facilitate the deletion of the created resources.
